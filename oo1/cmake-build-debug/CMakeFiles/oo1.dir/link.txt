@@ -1,0 +1,2 @@
+/usr/bin/ar qc liboo1.a  CMakeFiles/oo1.dir/library.cpp.o
+/usr/bin/ranlib liboo1.a

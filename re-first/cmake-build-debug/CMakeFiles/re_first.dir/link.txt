@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/re_first.dir/main.c.o  -o re_first 

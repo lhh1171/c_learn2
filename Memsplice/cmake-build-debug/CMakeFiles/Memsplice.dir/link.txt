@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Memsplice.dir/main.cpp.o  -o Memsplice 
