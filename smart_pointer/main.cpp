@@ -1,66 +1,80 @@
 #include<bits/stdc++.h>
 #include <iostream>
 using namespace std;
-static int nums[20];
+
 class Mylist{
 public:
-    int index=0;
+    int nums[20];
+    int index=1;
+
     Mylist(int n1,...){
+        memset(nums,0,80);
         va_list p;
-        nums[0]=n1;
+        this->nums[0]=n1;
         va_start(p, n1);
-        while (true){
-            if (nums[index]==0){
-                break;
-            }
-            index++;
-        }
         while ((n1 = va_arg(p, int)) != 0){
-            nums[index]=n1;
+           this-> nums[index]=n1;
             index++;
         }
         va_end(p);
+
     }
+
     void dis(){
         for (int i = 0; i < index; ++i) {
-            cout<<nums[i];
+            cout<<this->nums[i];
         }
         cout<<endl;
     }
-};
-class ptr{
-    Mylist *mylist;
-public:
-    ptr(Mylist *mylist):mylist(mylist){
 
+    ~Mylist(){
+        cout<<"~ mylist"<<endl;
     }
-    ~ptr(){
-        delete mylist;
+};
+class Ptr{
+    Mylist *pMylist;
+public:
+    Ptr(Mylist *mylist){
+        this->pMylist=mylist;
     }
+
+    ~Ptr(){
+        cout<<"~ptr"<<endl;
+        delete this->pMylist;
+    }
+
     Mylist *operator->(){
-        return this->mylist;
+        return this->pMylist;
     }
 
     int operator[](int i){
-        if (i>=this->mylist->index||i<0){
-            perror("\"the index is illegal!!!");
-            exit(0);
-        } else{
-            return nums[i];
+        if (i>=this->pMylist->index || i < 0){
+            perror("the index is illegal!!");
+            exit(1);
+        } else {
+            return this->pMylist->nums[i];
         }
     }
+
     void operator+(int i){
-        nums[this->mylist->index]=i;
-        this->mylist->index++;
+        this->pMylist->nums[this->pMylist->index]=i;
+        this->pMylist->index++;
+    }
+
+    void operator+(Ptr& p){
+        for (int i = 0; i < p.pMylist->index; ++i) {
+            this->operator+(p.pMylist->nums[i]);
+        }
     }
 };
 
 int main(){
-    memset(nums,0,20);
-    ptr ptr(new Mylist(1,2,3,4,5,0));
-    ptr->dis();
-    cout<<ptr[4]<<endl;
-    ptr+6;
-    ptr->dis();
-    ptr[9];
+    Ptr ptr2(new Mylist(2,2,3,4,7,0));
+    Ptr ptr1(new Mylist(2,2,3,4,7,0));
+    ptr1->dis();
+    cout<<ptr1[4]<<endl;
+    ptr1+6;
+    ptr1+ptr2;
+    ptr1->dis();
+//    ptr1[19];
 }
