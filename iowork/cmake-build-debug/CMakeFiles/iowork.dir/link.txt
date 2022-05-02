@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/iowork.dir/main.cpp.o  -o iowork 
