@@ -123,6 +123,60 @@ iowork/fast:
 	$(MAKE) -f CMakeFiles/iowork.dir/build.make CMakeFiles/iowork.dir/build
 .PHONY : iowork/fast
 
+file.o: file.cpp.o
+
+.PHONY : file.o
+
+# target to build an object file
+file.cpp.o:
+	$(MAKE) -f CMakeFiles/iowork.dir/build.make CMakeFiles/iowork.dir/file.cpp.o
+.PHONY : file.cpp.o
+
+file.i: file.cpp.i
+
+.PHONY : file.i
+
+# target to preprocess a source file
+file.cpp.i:
+	$(MAKE) -f CMakeFiles/iowork.dir/build.make CMakeFiles/iowork.dir/file.cpp.i
+.PHONY : file.cpp.i
+
+file.s: file.cpp.s
+
+.PHONY : file.s
+
+# target to generate assembly for a file
+file.cpp.s:
+	$(MAKE) -f CMakeFiles/iowork.dir/build.make CMakeFiles/iowork.dir/file.cpp.s
+.PHONY : file.cpp.s
+
+file2.o: file2.cpp.o
+
+.PHONY : file2.o
+
+# target to build an object file
+file2.cpp.o:
+	$(MAKE) -f CMakeFiles/iowork.dir/build.make CMakeFiles/iowork.dir/file2.cpp.o
+.PHONY : file2.cpp.o
+
+file2.i: file2.cpp.i
+
+.PHONY : file2.i
+
+# target to preprocess a source file
+file2.cpp.i:
+	$(MAKE) -f CMakeFiles/iowork.dir/build.make CMakeFiles/iowork.dir/file2.cpp.i
+.PHONY : file2.cpp.i
+
+file2.s: file2.cpp.s
+
+.PHONY : file2.s
+
+# target to generate assembly for a file
+file2.cpp.s:
+	$(MAKE) -f CMakeFiles/iowork.dir/build.make CMakeFiles/iowork.dir/file2.cpp.s
+.PHONY : file2.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/iowork.dir/build.make CMakeFiles/iowork.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mutiThread.o: mutiThread.cpp.o
+
+.PHONY : mutiThread.o
+
+# target to build an object file
+mutiThread.cpp.o:
+	$(MAKE) -f CMakeFiles/iowork.dir/build.make CMakeFiles/iowork.dir/mutiThread.cpp.o
+.PHONY : mutiThread.cpp.o
+
+mutiThread.i: mutiThread.cpp.i
+
+.PHONY : mutiThread.i
+
+# target to preprocess a source file
+mutiThread.cpp.i:
+	$(MAKE) -f CMakeFiles/iowork.dir/build.make CMakeFiles/iowork.dir/mutiThread.cpp.i
+.PHONY : mutiThread.cpp.i
+
+mutiThread.s: mutiThread.cpp.s
+
+.PHONY : mutiThread.s
+
+# target to generate assembly for a file
+mutiThread.cpp.s:
+	$(MAKE) -f CMakeFiles/iowork.dir/build.make CMakeFiles/iowork.dir/mutiThread.cpp.s
+.PHONY : mutiThread.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... iowork"
+	@echo "... file.o"
+	@echo "... file.i"
+	@echo "... file.s"
+	@echo "... file2.o"
+	@echo "... file2.i"
+	@echo "... file2.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mutiThread.o"
+	@echo "... mutiThread.i"
+	@echo "... mutiThread.s"
 .PHONY : help
 
 

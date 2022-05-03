@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lqc/CLionProjects/iowork/file.cpp
+sys/types.h
+-
+fcntl.h
+-
+unistd.h
+-
+cstdio
+-
+iostream
+-
+mysql/mysql.h
+-
+thread
+-
+

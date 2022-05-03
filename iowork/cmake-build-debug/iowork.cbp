@@ -82,7 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/lqc/CLionProjects/iowork/file.cpp">
+			<Option target="iowork"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/iowork/file2.cpp">
+			<Option target="iowork"/>
+		</Unit>
 		<Unit filename="/home/lqc/CLionProjects/iowork/main.cpp">
+			<Option target="iowork"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/iowork/mutiThread.cpp">
 			<Option target="iowork"/>
 		</Unit>
 		<Unit filename="/home/lqc/CLionProjects/iowork/CMakeLists.txt">

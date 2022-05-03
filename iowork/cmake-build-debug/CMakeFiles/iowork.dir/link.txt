@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/iowork.dir/main.cpp.o  -o iowork 
+/usr/bin/c++   -pthread -g   CMakeFiles/iowork.dir/main.cpp.o CMakeFiles/iowork.dir/mutiThread.cpp.o CMakeFiles/iowork.dir/file.cpp.o CMakeFiles/iowork.dir/file2.cpp.o  -o iowork  -lmysqlclient -lboost_thread -lboost_system -lrt 
