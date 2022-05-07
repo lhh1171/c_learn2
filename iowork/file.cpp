@@ -39,9 +39,9 @@ int hole_test(MYSQL_RES *result,int num_rows,int  num_fields,char **row){
     //for循环里面可以开多线程
     for(int i=0;i<num_rows;i++) //输出每一行
     {
-        position+=100;
         //获取下一行数据
         row=mysql_fetch_row(result);
+
         if(**row<0) break;
         string str;
         for(int j=0;j<num_fields;j++)  //输出每一字段
@@ -58,6 +58,7 @@ int hole_test(MYSQL_RES *result,int num_rows,int  num_fields,char **row){
         } catch (const exception& e) {
             cerr << "EXCEPTION: " << e.what() << endl;
         }
+        position+=100;
         cout<<str;
     }
     cin.get();

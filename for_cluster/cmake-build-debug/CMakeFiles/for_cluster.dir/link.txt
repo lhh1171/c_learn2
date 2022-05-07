@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/for_cluster.dir/main.cpp.o  -o for_cluster 
