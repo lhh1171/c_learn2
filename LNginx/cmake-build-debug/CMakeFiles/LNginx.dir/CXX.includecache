@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lqc/CLionProjects/LNginx/socket.cpp
+cstdio
+-
+cstring
+-
+cerrno
+-
+sys/socket.h
+-
+netinet/in.h
+-
+unistd.h
+-
+netdb.h
+-
+arpa/inet.h
+-
+

@@ -85,6 +85,9 @@
 		<Unit filename="/home/lqc/CLionProjects/LNginx/main.cpp">
 			<Option target="LNginx"/>
 		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/LNginx/socket.cpp">
+			<Option target="LNginx"/>
+		</Unit>
 		<Unit filename="/home/lqc/CLionProjects/LNginx/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

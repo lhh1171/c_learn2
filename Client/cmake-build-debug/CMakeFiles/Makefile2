@@ -44,16 +44,16 @@ RM = /opt/CLion-2020.1.3/clion-2020.1.3/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lqc/CLionProjects/LNginx
+CMAKE_SOURCE_DIR = /home/lqc/CLionProjects/Client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lqc/CLionProjects/LNginx/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lqc/CLionProjects/Client/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/LNginx.dir/all
+all: CMakeFiles/Client.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/LNginx.dir/clean
+clean: CMakeFiles/Client.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/LNginx.dir
+# Target rules for target CMakeFiles/Client.dir
 
 # All Build rule for target.
-CMakeFiles/LNginx.dir/all:
-	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/depend
-	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target LNginx"
-.PHONY : CMakeFiles/LNginx.dir/all
+CMakeFiles/Client.dir/all:
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/depend
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lqc/CLionProjects/Client/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Client"
+.PHONY : CMakeFiles/Client.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/LNginx.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LNginx.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/LNginx.dir/rule
+CMakeFiles/Client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lqc/CLionProjects/Client/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lqc/CLionProjects/Client/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Client.dir/rule
 
 # Convenience name for target.
-LNginx: CMakeFiles/LNginx.dir/rule
+Client: CMakeFiles/Client.dir/rule
 
-.PHONY : LNginx
+.PHONY : Client
 
 # clean rule for target.
-CMakeFiles/LNginx.dir/clean:
-	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/clean
-.PHONY : CMakeFiles/LNginx.dir/clean
+CMakeFiles/Client.dir/clean:
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/clean
+.PHONY : CMakeFiles/Client.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

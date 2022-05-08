@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LNginx.dir/main.cpp.o"
+  "CMakeFiles/LNginx.dir/socket.cpp.o"
   "LNginx"
   "LNginx.pdb"
 )
