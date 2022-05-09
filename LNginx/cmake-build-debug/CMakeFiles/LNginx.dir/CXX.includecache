@@ -11,7 +11,7 @@ sys/types.h
 -
 sys/socket.h
 -
-stdio.h
+cstdio
 -
 unistd.h
 -
@@ -20,5 +20,11 @@ arpa/inet.h
 cstring
 -
 string
+-
+map
+-
+iostream
+-
+vector
 -
 

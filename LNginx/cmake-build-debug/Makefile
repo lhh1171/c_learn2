@@ -123,32 +123,32 @@ LNginx/fast:
 	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/build
 .PHONY : LNginx/fast
 
-getIP.o: getIP.cpp.o
+LLMap.o: LLMap.cpp.o
 
-.PHONY : getIP.o
+.PHONY : LLMap.o
 
 # target to build an object file
-getIP.cpp.o:
-	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/getIP.cpp.o
-.PHONY : getIP.cpp.o
+LLMap.cpp.o:
+	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/LLMap.cpp.o
+.PHONY : LLMap.cpp.o
 
-getIP.i: getIP.cpp.i
+LLMap.i: LLMap.cpp.i
 
-.PHONY : getIP.i
+.PHONY : LLMap.i
 
 # target to preprocess a source file
-getIP.cpp.i:
-	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/getIP.cpp.i
-.PHONY : getIP.cpp.i
+LLMap.cpp.i:
+	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/LLMap.cpp.i
+.PHONY : LLMap.cpp.i
 
-getIP.s: getIP.cpp.s
+LLMap.s: LLMap.cpp.s
 
-.PHONY : getIP.s
+.PHONY : LLMap.s
 
 # target to generate assembly for a file
-getIP.cpp.s:
-	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/getIP.cpp.s
-.PHONY : getIP.cpp.s
+LLMap.cpp.s:
+	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/LLMap.cpp.s
+.PHONY : LLMap.cpp.s
 
 main.o: main.cpp.o
 
@@ -240,9 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LNginx"
-	@echo "... getIP.o"
-	@echo "... getIP.i"
-	@echo "... getIP.s"
+	@echo "... LLMap.o"
+	@echo "... LLMap.i"
+	@echo "... LLMap.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

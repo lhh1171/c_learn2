@@ -7,7 +7,7 @@
 #include <arpa/inet.h>
 
 
-#define PORT 9990
+#define PORT 6666
 #define SIZE 1024
 
 int main()

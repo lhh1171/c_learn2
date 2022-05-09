@@ -96,25 +96,25 @@ CMakeFiles/LNginx.dir/server2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LNginx.dir/server2.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/LNginx/server2.cpp -o CMakeFiles/LNginx.dir/server2.cpp.s
 
-CMakeFiles/LNginx.dir/getIP.cpp.o: CMakeFiles/LNginx.dir/flags.make
-CMakeFiles/LNginx.dir/getIP.cpp.o: ../getIP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LNginx.dir/getIP.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LNginx.dir/getIP.cpp.o -c /home/lqc/CLionProjects/LNginx/getIP.cpp
+CMakeFiles/LNginx.dir/LLMap.cpp.o: CMakeFiles/LNginx.dir/flags.make
+CMakeFiles/LNginx.dir/LLMap.cpp.o: ../LLMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LNginx.dir/LLMap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LNginx.dir/LLMap.cpp.o -c /home/lqc/CLionProjects/LNginx/LLMap.cpp
 
-CMakeFiles/LNginx.dir/getIP.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LNginx.dir/getIP.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/LNginx/getIP.cpp > CMakeFiles/LNginx.dir/getIP.cpp.i
+CMakeFiles/LNginx.dir/LLMap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LNginx.dir/LLMap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/LNginx/LLMap.cpp > CMakeFiles/LNginx.dir/LLMap.cpp.i
 
-CMakeFiles/LNginx.dir/getIP.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LNginx.dir/getIP.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/LNginx/getIP.cpp -o CMakeFiles/LNginx.dir/getIP.cpp.s
+CMakeFiles/LNginx.dir/LLMap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LNginx.dir/LLMap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/LNginx/LLMap.cpp -o CMakeFiles/LNginx.dir/LLMap.cpp.s
 
 # Object files for target LNginx
 LNginx_OBJECTS = \
 "CMakeFiles/LNginx.dir/main.cpp.o" \
 "CMakeFiles/LNginx.dir/socket.cpp.o" \
 "CMakeFiles/LNginx.dir/server2.cpp.o" \
-"CMakeFiles/LNginx.dir/getIP.cpp.o"
+"CMakeFiles/LNginx.dir/LLMap.cpp.o"
 
 # External object files for target LNginx
 LNginx_EXTERNAL_OBJECTS =
@@ -122,7 +122,7 @@ LNginx_EXTERNAL_OBJECTS =
 LNginx: CMakeFiles/LNginx.dir/main.cpp.o
 LNginx: CMakeFiles/LNginx.dir/socket.cpp.o
 LNginx: CMakeFiles/LNginx.dir/server2.cpp.o
-LNginx: CMakeFiles/LNginx.dir/getIP.cpp.o
+LNginx: CMakeFiles/LNginx.dir/LLMap.cpp.o
 LNginx: CMakeFiles/LNginx.dir/build.make
 LNginx: CMakeFiles/LNginx.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable LNginx"
