@@ -7,20 +7,16 @@
 #IncludeRegexTransform: 
 
 /home/lqc/CLionProjects/Client/main.cpp
-iostream
--
-cstdio
--
-cstring
--
-cerrno
+sys/types.h
 -
 sys/socket.h
 -
-netinet/in.h
--
-arpa/inet.h
+stdio.h
 -
 unistd.h
+-
+string.h
+-
+arpa/inet.h
 -
 

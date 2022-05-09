@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/lqc/CLionProjects/LNginx/getIP.cpp">
+			<Option target="LNginx"/>
+		</Unit>
 		<Unit filename="/home/lqc/CLionProjects/LNginx/main.cpp">
+			<Option target="LNginx"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/LNginx/server2.cpp">
 			<Option target="LNginx"/>
 		</Unit>
 		<Unit filename="/home/lqc/CLionProjects/LNginx/socket.cpp">

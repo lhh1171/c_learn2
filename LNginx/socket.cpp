@@ -12,9 +12,10 @@
 #include<unistd.h>
 #include <netdb.h>
 #include <arpa/inet.h>
-
+#include <iostream>
 #define MAXLINE 4096
 
+using namespace std;
 //返回本地主机名
 void checkHostName(int hostname) {
     if (hostname == -1) {
@@ -42,12 +43,10 @@ void checkIPbuffer(char *IPbuffer) {
 
 int server1() {
     int listenfd, connfd;
-    struct sockaddr_in servaddr{};
+    struct sockaddr_in servaddr;
     char buff[4096];
     int n;
-    char *IPbuffer;
-    int hostname;
-    struct hostent *host_entry;
+    memset(buff,0,4096);
     if ((listenfd = socket(AF_INET, SOCK_STREAM, 0)) == -1) {
         printf("create socket error: %s(errno: %d)\n", strerror(errno), errno);
         return 0;
@@ -68,37 +67,32 @@ int server1() {
         printf("listen socket error: %s(errno: %d)\n", strerror(errno), errno);
         return 0;
     }
+    struct sockaddr * sockaddr=NULL;
+
+    printf("======waiting for client's request======\n");
+    if ((connfd = accept(listenfd, sockaddr, NULL)) == -1) {
+        printf("accept socket error: %s(errno: %d)", strerror(errno), errno);
+        //continue;
+    }
 
 
+//    n = recv(connfd, buff, MAXLINE, 0);
+//    //接收主机名
+//    int hostname = gethostname(buff, sizeof(buff));
+//    checkHostName(hostname);
+//
+//    //接收主机信息
+//    hostent*  host_entry = gethostbyname(buff);
+//    checkHostEntry(host_entry);
+//
+//    //转换网络地址
+//    char * IPbuffer = inet_ntoa(*((struct in_addr *) host_entry->h_addr_list[0]));
+//    printf("Hostname: %s\n", buff);
+//    printf("Host IP: %s\n", IPbuffer);
+//    buff[n] = '\0';
 
-        if ((connfd = accept(listenfd, (struct sockaddr *) NULL, NULL)) == -1) {
-            printf("accept socket error: %s(errno: %d)", strerror(errno), errno);
-//            continue;
-        }
-
-        printf("======waiting for client's request======\n");
-        n = recv(connfd, buff, MAXLINE, 0);
-        //接收主机名
-        hostname = gethostname(buff, sizeof(buff));
-        checkHostName(hostname);
-
-        //接收主机信息
-        host_entry = gethostbyname(buff);
-        checkHostEntry(host_entry);
-
-        //转换网络地址
-        IPbuffer = inet_ntoa(*((struct in_addr *) host_entry->h_addr_list[0]));
-        printf("Hostname: %s\n", buff);
-        printf("Host IP: %s\n", IPbuffer);
-        buff[n] = '\0';
-        printf("recv msg from client: %s\n", buff);
-        close(connfd);
-
+    printf("recv msg from client: %s\n", buff);
+    close(connfd);
     close(listenfd);
-    return 0;
-}
-
-int main() {
-    server1();
     return 0;
 }

@@ -123,6 +123,33 @@ LNginx/fast:
 	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/build
 .PHONY : LNginx/fast
 
+getIP.o: getIP.cpp.o
+
+.PHONY : getIP.o
+
+# target to build an object file
+getIP.cpp.o:
+	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/getIP.cpp.o
+.PHONY : getIP.cpp.o
+
+getIP.i: getIP.cpp.i
+
+.PHONY : getIP.i
+
+# target to preprocess a source file
+getIP.cpp.i:
+	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/getIP.cpp.i
+.PHONY : getIP.cpp.i
+
+getIP.s: getIP.cpp.s
+
+.PHONY : getIP.s
+
+# target to generate assembly for a file
+getIP.cpp.s:
+	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/getIP.cpp.s
+.PHONY : getIP.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -149,6 +176,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+server2.o: server2.cpp.o
+
+.PHONY : server2.o
+
+# target to build an object file
+server2.cpp.o:
+	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/server2.cpp.o
+.PHONY : server2.cpp.o
+
+server2.i: server2.cpp.i
+
+.PHONY : server2.i
+
+# target to preprocess a source file
+server2.cpp.i:
+	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/server2.cpp.i
+.PHONY : server2.cpp.i
+
+server2.s: server2.cpp.s
+
+.PHONY : server2.s
+
+# target to generate assembly for a file
+server2.cpp.s:
+	$(MAKE) -f CMakeFiles/LNginx.dir/build.make CMakeFiles/LNginx.dir/server2.cpp.s
+.PHONY : server2.cpp.s
 
 socket.o: socket.cpp.o
 
@@ -186,9 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LNginx"
+	@echo "... getIP.o"
+	@echo "... getIP.i"
+	@echo "... getIP.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... server2.o"
+	@echo "... server2.i"
+	@echo "... server2.s"
 	@echo "... socket.o"
 	@echo "... socket.i"
 	@echo "... socket.s"

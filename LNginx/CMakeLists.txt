@@ -4,4 +4,4 @@ project(LNginx)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(LNginx main.cpp socket.cpp)
+add_executable(LNginx main.cpp socket.cpp server2.cpp getIP.cpp)

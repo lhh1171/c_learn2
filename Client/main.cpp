@@ -1,50 +1,59 @@
-#include <iostream>
-#include<cstdio>
-#include<cstring>
-#include<cerrno>
-#include<sys/socket.h>
-#include<netinet/in.h>
-#include<arpa/inet.h>
-#include<unistd.h>
-using namespace std;
-int client1(){
-    int   sockfd, n;
-    char sendline[4096];
-    struct sockaddr_in  servaddr{};
-//Type就是socket的类型，对于AF_INET协议族而言有流套接字(SOCK_STREAM)、数据包套接字(SOCK_DGRAM)、原始套接字(SOCK_RAW)
-    if( (sockfd = socket(AF_INET, SOCK_STREAM, 0)) < 0){
-        printf("create socket error: %s(errno: %d)\n", strerror(errno),errno);
-        return 0;
-    }
-    memset(&servaddr, 0, sizeof(servaddr));
-    servaddr.sin_family = AF_INET;
-    servaddr.sin_port = htons(6666);
-    //inet_pton是一个IP地址转换函数，
-    // 可以在将IP地址在“点分十进制”和“二进制整数”之间转换而且，
-    // inet_pton和inet_ntop这2个函数能够处理ipv4和ipv6。
 
-    if( inet_pton(AF_INET, "127.0.0.1", &servaddr.sin_addr) <= 0){
-        printf("inet_pton error for 127.0.0.1");
-        return 0;
-    }
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+#include <arpa/inet.h>
 
 
-    if( connect(sockfd, (struct sockaddr*)&servaddr, sizeof(servaddr)) < 0){
-        printf("connect error: %s(errno: %d)\n",strerror(errno),errno);
-        return 0;
+#define PORT 9990
+#define SIZE 1024
+
+int main()
+{
+    int client_socket = socket(AF_INET, SOCK_STREAM, 0);   //创建和服务器连接套接字
+    if(client_socket == -1)
+    {
+        perror("socket");
+        return -1;
+    }
+    struct sockaddr_in addr;
+    memset(&addr, 0, sizeof(addr));
+
+    addr.sin_family = AF_INET;  /* Internet地址族 */
+    addr.sin_port = htons(PORT);  /* 端口号 */
+    addr.sin_addr.s_addr = htonl(INADDR_ANY);   /* IP地址 */
+    inet_aton("192.168.0.88", &(addr.sin_addr));
+
+    int addrlen = sizeof(addr);
+    int listen_socket =  connect(client_socket,  (struct sockaddr *)&addr, addrlen);  //连接服务器
+    if(listen_socket == -1)
+    {
+        perror("connect");
+        return -1;
     }
 
-    printf("send msg to server: \n");
-    fgets(sendline, 4096, stdin);
-    if( send(sockfd, sendline, strlen(sendline), 0) < 0){
-        printf("send msg error: %s(errno: %d)\n", strerror(errno), errno);
-        return 0;
+    printf("成功连接到一个服务器\n");
+
+    char buf[SIZE] = {0};
+
+    while(1)        //向服务器发送数据，并接收服务器转换后的大写字母
+    {
+        printf("请输入你相输入的：");
+        scanf("%s", buf);
+        write(client_socket, buf, strlen(buf));
+
+        int ret = read(client_socket, buf, strlen(buf));
+
+        printf("buf = %s", buf);
+        printf("\n");
+        if(strncmp(buf, "END", 3) == 0)     //当输入END时客户端退出
+        {
+            break;
+        }
     }
-    cout<<
-    close(sockfd);
-    return 0;
-}
-int main() {
-    client1();
+    close(listen_socket);
+
     return 0;
 }

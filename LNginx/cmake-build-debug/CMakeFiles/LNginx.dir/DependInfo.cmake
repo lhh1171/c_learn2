@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/lqc/CLionProjects/LNginx/getIP.cpp" "/home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/getIP.cpp.o"
   "/home/lqc/CLionProjects/LNginx/main.cpp" "/home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/main.cpp.o"
+  "/home/lqc/CLionProjects/LNginx/server2.cpp" "/home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/server2.cpp.o"
   "/home/lqc/CLionProjects/LNginx/socket.cpp" "/home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/socket.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
