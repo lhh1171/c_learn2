@@ -1,6 +1,12 @@
 cmake_minimum_required(VERSION 3.16)
-project(pcap)
+
+project(pp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(pcap main.cpp)
+add_executable(pp main.cpp test.cpp)
+
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} libpcap.so.1 libpcap.so)
+
+
+

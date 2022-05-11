@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/lqc/CLionProjects/pcap/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/CLion-2020.1.3/clion-2020.1.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/opt/CLion-2020.1.3/clion-2020.1.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named pcap
+# Target rules for targets named pp
 
 # Build rule for target.
-pcap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pcap
-.PHONY : pcap
+pp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pp
+.PHONY : pp
 
 # fast build rule for target.
-pcap/fast:
-	$(MAKE) -f CMakeFiles/pcap.dir/build.make CMakeFiles/pcap.dir/build
-.PHONY : pcap/fast
+pp/fast:
+	$(MAKE) -f CMakeFiles/pp.dir/build.make CMakeFiles/pp.dir/build
+.PHONY : pp/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/pcap.dir/build.make CMakeFiles/pcap.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/pp.dir/build.make CMakeFiles/pp.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/pcap.dir/build.make CMakeFiles/pcap.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/pp.dir/build.make CMakeFiles/pp.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,8 +147,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/pcap.dir/build.make CMakeFiles/pcap.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/pp.dir/build.make CMakeFiles/pp.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/pp.dir/build.make CMakeFiles/pp.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/pp.dir/build.make CMakeFiles/pp.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/pp.dir/build.make CMakeFiles/pp.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -156,12 +183,15 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... pcap"
+	@echo "... rebuild_cache"
+	@echo "... pp"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

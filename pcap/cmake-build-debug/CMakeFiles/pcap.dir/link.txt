@@ -1,1 +1,2 @@
-/usr/bin/c++  -g   CMakeFiles/pcap.dir/main.cpp.o  -o pcap 
+/usr/bin/ar qc libpcap.a  CMakeFiles/pcap.dir/main.cpp.o
+/usr/bin/ranlib libpcap.a

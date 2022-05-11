@@ -8,7 +8,7 @@
 #include <map>
 #include <iostream>
 #include <vector>
-#define PORT 9000   //端口号
+#define PORT 9100   //端口号
 #define SIZE 40960 //定义的数组大小
 
 using namespace std;
@@ -132,30 +132,36 @@ void flushMap(){
 //三种负载均衡策略
 //ip_map(cliIp,server_index)
 string round_robin(){
-    auto iter1=ip_map.begin();
-    auto iter2=property_map.begin();
-    bool flag= false;
+    map<string , int>::iterator iter1=ip_map.begin();
+    map<int, string>::iterator iter2=property_map.begin();
+    int ii=-1;
+    string target_ip;
     //如果该客户端连接过
     for(;iter1!=ip_map.end();iter1++){
         if (iter1->first==client_ip){
             for(;iter2!=property_map.end();iter2++){
                 if (iter2->first==(iter1->second+1)){
-                    flag=true;
-                    iter1->second=(iter1->second+1)%property_len;
-                    return iter2->second;
+                    cout<<"sec:" <<iter2->first<<endl;
+                    cout<<"targetIp: "<<iter2->second<<endl;
+                    ii=iter2->first;
+                    target_ip = iter2->second;
                 }
             }
         }
     }
-    //如果该客户端未连接过
-    iter2=property_map.begin();
-    ip_map.insert(map<string, int>::value_type(client_ip, 0));
-    for (; iter2 != property_map.end(); iter2++) {
-        if (iter2->first == 0) {
-            return iter2->second;
+    if (ii==-1){
+        //如果该客户端未连接过
+        iter2=property_map.begin();
+        ip_map.insert(map<string, int>::value_type(client_ip, 0));
+        for (; iter2 != property_map.end(); iter2++) {
+            if (iter2->first == 0) {
+                target_ip = iter2->second;
+            }
         }
+    } else {
+        ip_map.insert(map<string, int>::value_type(client_ip, ii));
     }
-    return std::string();
+    return target_ip;
 }
 string weight(){
     return "";
@@ -262,17 +268,17 @@ void handler_client(int listen_socket)
         //更改hashMap
         flushMap();
         //断开连接
-        close(sock_fd);
         close(client_socket);
+        close(sock_fd);
     }
 }
 
 
-int main()
-{
-    init_map();
-    int listen_socket = Creat_socket();
-    handler_client(listen_socket);
-    close(listen_socket);
-    return 0;
-}
+//int main()
+//{
+//    init_map();
+//    int listen_socket = Creat_socket();
+//    handler_client(listen_socket);
+//    close(listen_socket);
+//    return 0;
+//}
