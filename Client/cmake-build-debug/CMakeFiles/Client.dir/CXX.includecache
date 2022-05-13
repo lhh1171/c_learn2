@@ -6,41 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/lqc/CLionProjects/Client/client.cpp
-stdio.h
+/home/lqc/CLionProjects/Client/UdpClient.cpp
+iostream
 -
-stdlib.h
--
-unistd.h
--
-string.h
--
-netdb.h
--
-sys/types.h
+cstdio
 -
 sys/socket.h
 -
-netinet/in.h
--
-netinet/ip.h
--
-netinet/ip_icmp.h
--
 arpa/inet.h
 -
-sys/ioctl.h
+netinet/in.h
 -
-bits/ioctls.h
+unistd.h
 -
-net/if.h
--
-linux/if_ether.h
--
-linux/if_packet.h
--
-net/ethernet.h
--
-errno.h
+cstring
 -
 

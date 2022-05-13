@@ -123,6 +123,33 @@ Client/fast:
 	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/build
 .PHONY : Client/fast
 
+UdpClient.o: UdpClient.cpp.o
+
+.PHONY : UdpClient.o
+
+# target to build an object file
+UdpClient.cpp.o:
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/UdpClient.cpp.o
+.PHONY : UdpClient.cpp.o
+
+UdpClient.i: UdpClient.cpp.i
+
+.PHONY : UdpClient.i
+
+# target to preprocess a source file
+UdpClient.cpp.i:
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/UdpClient.cpp.i
+.PHONY : UdpClient.cpp.i
+
+UdpClient.s: UdpClient.cpp.s
+
+.PHONY : UdpClient.s
+
+# target to generate assembly for a file
+UdpClient.cpp.s:
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/UdpClient.cpp.s
+.PHONY : UdpClient.cpp.s
+
 client.o: client.cpp.o
 
 .PHONY : client.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Client"
+	@echo "... UdpClient.o"
+	@echo "... UdpClient.i"
+	@echo "... UdpClient.s"
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"

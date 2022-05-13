@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="for_cluster" targetName="for_cluster" />
@@ -12,8 +30,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99f93a23-64bf-48f0-8a6b-fda30b793361" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../iowork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../iowork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../iowork/file.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../iowork/file.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/UdpClient.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cluster2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cluster2/.idea/cluster2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cluster2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cluster2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cluster2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cluster2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cluster2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/client.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/client.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/client.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/Client" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/Client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/Client.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/Client.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +79,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="for_cluster" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="for_cluster" TARGET_NAME="for_cluster" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="for_cluster" RUN_TARGET_NAME="for_cluster">
@@ -55,7 +104,73 @@
       <option name="presentableId" value="Default" />
       <updated>1651929660276</updated>
       <workItem from="1651929661368" duration="426000" />
+      <workItem from="1652279073290" duration="652000" />
+      <workItem from="1652280708412" duration="7444000" />
+      <workItem from="1652339661752" duration="10231000" />
+      <workItem from="1652357785964" duration="39000" />
+      <workItem from="1652363945680" duration="3254000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="906" height="426" key="GridCell.Tab.0.bottom" timestamp="1652368713219">
+      <screen x="0" y="27" width="1920" height="999" />
+    </state>
+    <state width="906" height="239" key="GridCell.Tab.0.bottom/0.27.1920.999@0.27.1920.999" timestamp="1652288405843" />
+    <state width="906" height="426" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.27.1920.999@0.27.1920.999" timestamp="1652368713219" />
+    <state width="896" height="171" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1652364231647" />
+    <state width="906" height="426" key="GridCell.Tab.0.center" timestamp="1652368713219">
+      <screen x="0" y="27" width="1920" height="999" />
+    </state>
+    <state width="906" height="239" key="GridCell.Tab.0.center/0.27.1920.999@0.27.1920.999" timestamp="1652288405842" />
+    <state width="906" height="426" key="GridCell.Tab.0.center/1920.0.2560.1440/0.27.1920.999@0.27.1920.999" timestamp="1652368713219" />
+    <state width="896" height="171" key="GridCell.Tab.0.center/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1652364231647" />
+    <state width="906" height="426" key="GridCell.Tab.0.left" timestamp="1652368713219">
+      <screen x="0" y="27" width="1920" height="999" />
+    </state>
+    <state width="906" height="239" key="GridCell.Tab.0.left/0.27.1920.999@0.27.1920.999" timestamp="1652288405842" />
+    <state width="906" height="426" key="GridCell.Tab.0.left/1920.0.2560.1440/0.27.1920.999@0.27.1920.999" timestamp="1652368713219" />
+    <state width="896" height="171" key="GridCell.Tab.0.left/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1652364231647" />
+    <state width="906" height="426" key="GridCell.Tab.0.right" timestamp="1652368713219">
+      <screen x="0" y="27" width="1920" height="999" />
+    </state>
+    <state width="906" height="239" key="GridCell.Tab.0.right/0.27.1920.999@0.27.1920.999" timestamp="1652288405843" />
+    <state width="906" height="426" key="GridCell.Tab.0.right/1920.0.2560.1440/0.27.1920.999@0.27.1920.999" timestamp="1652368713219" />
+    <state width="896" height="171" key="GridCell.Tab.0.right/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1652364231647" />
+    <state width="1226" height="681" key="GridCell.Tab.1.bottom" timestamp="1652357291048">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="906" height="239" key="GridCell.Tab.1.bottom/0.27.1920.999@0.27.1920.999" timestamp="1652288405843" />
+    <state width="1226" height="681" key="GridCell.Tab.1.bottom/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1652357291048" />
+    <state width="1226" height="681" key="GridCell.Tab.1.center" timestamp="1652357291048">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="906" height="239" key="GridCell.Tab.1.center/0.27.1920.999@0.27.1920.999" timestamp="1652288405843" />
+    <state width="1226" height="681" key="GridCell.Tab.1.center/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1652357291048" />
+    <state width="1226" height="681" key="GridCell.Tab.1.left" timestamp="1652357291048">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="906" height="239" key="GridCell.Tab.1.left/0.27.1920.999@0.27.1920.999" timestamp="1652288405843" />
+    <state width="1226" height="681" key="GridCell.Tab.1.left/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1652357291048" />
+    <state width="1226" height="681" key="GridCell.Tab.1.right" timestamp="1652357291048">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="906" height="239" key="GridCell.Tab.1.right/0.27.1920.999@0.27.1920.999" timestamp="1652288405843" />
+    <state width="1226" height="681" key="GridCell.Tab.1.right/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1652357291048" />
   </component>
 </project>
