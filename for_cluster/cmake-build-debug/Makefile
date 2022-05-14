@@ -123,6 +123,33 @@ for_cluster/fast:
 	$(MAKE) -f CMakeFiles/for_cluster.dir/build.make CMakeFiles/for_cluster.dir/build
 .PHONY : for_cluster/fast
 
+Lserver.o: Lserver.cpp.o
+
+.PHONY : Lserver.o
+
+# target to build an object file
+Lserver.cpp.o:
+	$(MAKE) -f CMakeFiles/for_cluster.dir/build.make CMakeFiles/for_cluster.dir/Lserver.cpp.o
+.PHONY : Lserver.cpp.o
+
+Lserver.i: Lserver.cpp.i
+
+.PHONY : Lserver.i
+
+# target to preprocess a source file
+Lserver.cpp.i:
+	$(MAKE) -f CMakeFiles/for_cluster.dir/build.make CMakeFiles/for_cluster.dir/Lserver.cpp.i
+.PHONY : Lserver.cpp.i
+
+Lserver.s: Lserver.cpp.s
+
+.PHONY : Lserver.s
+
+# target to generate assembly for a file
+Lserver.cpp.s:
+	$(MAKE) -f CMakeFiles/for_cluster.dir/build.make CMakeFiles/for_cluster.dir/Lserver.cpp.s
+.PHONY : Lserver.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... for_cluster"
+	@echo "... Lserver.o"
+	@echo "... Lserver.i"
+	@echo "... Lserver.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

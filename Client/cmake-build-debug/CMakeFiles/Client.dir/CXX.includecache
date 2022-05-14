@@ -6,19 +6,7 @@
 
 #IncludeRegexTransform: 
 
+/home/lqc/CLionProjects/Client/Lclient.cpp
+
 /home/lqc/CLionProjects/Client/UdpClient.cpp
-iostream
--
-cstdio
--
-sys/socket.h
--
-arpa/inet.h
--
-netinet/in.h
--
-unistd.h
--
-cstring
--
 

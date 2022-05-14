@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/lqc/CLionProjects/for_cluster/Lserver.cpp">
+			<Option target="for_cluster"/>
+		</Unit>
 		<Unit filename="/home/lqc/CLionProjects/for_cluster/main.cpp">
 			<Option target="for_cluster"/>
 		</Unit>

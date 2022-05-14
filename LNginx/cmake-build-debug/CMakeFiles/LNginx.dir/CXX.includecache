@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lqc/CLionProjects/LNginx/server2.cpp
-sys/types.h
--
+/home/lqc/CLionProjects/LNginx/socket.cpp
 sys/socket.h
 -
 cstdio
@@ -19,12 +17,10 @@ arpa/inet.h
 -
 cstring
 -
-string
+thread
 -
-map
+exception
 -
 iostream
--
-vector
 -
 

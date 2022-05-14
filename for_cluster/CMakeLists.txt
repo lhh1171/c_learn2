@@ -3,4 +3,4 @@ project(for_cluster)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(for_cluster main.cpp)
+add_executable(for_cluster main.cpp Lserver.cpp)

@@ -123,6 +123,33 @@ cluster2/fast:
 	$(MAKE) -f CMakeFiles/cluster2.dir/build.make CMakeFiles/cluster2.dir/build
 .PHONY : cluster2/fast
 
+Lserver.o: Lserver.cpp.o
+
+.PHONY : Lserver.o
+
+# target to build an object file
+Lserver.cpp.o:
+	$(MAKE) -f CMakeFiles/cluster2.dir/build.make CMakeFiles/cluster2.dir/Lserver.cpp.o
+.PHONY : Lserver.cpp.o
+
+Lserver.i: Lserver.cpp.i
+
+.PHONY : Lserver.i
+
+# target to preprocess a source file
+Lserver.cpp.i:
+	$(MAKE) -f CMakeFiles/cluster2.dir/build.make CMakeFiles/cluster2.dir/Lserver.cpp.i
+.PHONY : Lserver.cpp.i
+
+Lserver.s: Lserver.cpp.s
+
+.PHONY : Lserver.s
+
+# target to generate assembly for a file
+Lserver.cpp.s:
+	$(MAKE) -f CMakeFiles/cluster2.dir/build.make CMakeFiles/cluster2.dir/Lserver.cpp.s
+.PHONY : Lserver.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cluster2"
+	@echo "... Lserver.o"
+	@echo "... Lserver.i"
+	@echo "... Lserver.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

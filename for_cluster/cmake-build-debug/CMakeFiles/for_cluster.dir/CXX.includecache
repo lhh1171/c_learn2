@@ -6,12 +6,16 @@
 
 #IncludeRegexTransform: 
 
-/home/lqc/CLionProjects/for_cluster/main.cpp
+/home/lqc/CLionProjects/for_cluster/Lserver.cpp
 iostream
 -
-cstdio
+stdio.h
 -
 sys/socket.h
+-
+netdb.h
+-
+sys/types.h
 -
 arpa/inet.h
 -
@@ -19,6 +23,8 @@ netinet/in.h
 -
 unistd.h
 -
-cstring
+stdlib.h
+-
+string.h
 -
 

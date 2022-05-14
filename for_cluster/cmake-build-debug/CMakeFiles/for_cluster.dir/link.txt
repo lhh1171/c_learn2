@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/for_cluster.dir/main.cpp.o  -o for_cluster 
+/usr/bin/c++  -g   CMakeFiles/for_cluster.dir/main.cpp.o CMakeFiles/for_cluster.dir/Lserver.cpp.o  -o for_cluster 
