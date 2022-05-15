@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lqc/CLionProjects/LNginx/LLMap.cpp" "/home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/LLMap.cpp.o"
+  "/home/lqc/CLionProjects/LNginx/epollServer.cpp" "/home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/epollServer.cpp.o"
   "/home/lqc/CLionProjects/LNginx/main.cpp" "/home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/main.cpp.o"
   "/home/lqc/CLionProjects/LNginx/server2.cpp" "/home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/server2.cpp.o"
   "/home/lqc/CLionProjects/LNginx/socket.cpp" "/home/lqc/CLionProjects/LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/socket.cpp.o"

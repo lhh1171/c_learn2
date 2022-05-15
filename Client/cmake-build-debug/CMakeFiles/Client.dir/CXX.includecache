@@ -6,7 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/lqc/CLionProjects/Client/Lclient.cpp
-
-/home/lqc/CLionProjects/Client/UdpClient.cpp
+/home/lqc/CLionProjects/Client/epollServer.cpp
+iostream
+-
+netinet/in.h
+-
+sys/socket.h
+-
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+sys/epoll.h
+-
+time.h
+-
+unistd.h
+-
+sys/types.h
+-
+arpa/inet.h
+-
 

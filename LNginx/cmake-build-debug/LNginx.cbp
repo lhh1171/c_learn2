@@ -85,6 +85,9 @@
 		<Unit filename="/home/lqc/CLionProjects/LNginx/LLMap.cpp">
 			<Option target="LNginx"/>
 		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/LNginx/epollServer.cpp">
+			<Option target="LNginx"/>
+		</Unit>
 		<Unit filename="/home/lqc/CLionProjects/LNginx/main.cpp">
 			<Option target="LNginx"/>
 		</Unit>

@@ -91,6 +91,9 @@
 		<Unit filename="/home/lqc/CLionProjects/Client/client.cpp">
 			<Option target="Client"/>
 		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/Client/epollServer.cpp">
+			<Option target="Client"/>
+		</Unit>
 		<Unit filename="/home/lqc/CLionProjects/Client/main.cpp">
 			<Option target="Client"/>
 		</Unit>

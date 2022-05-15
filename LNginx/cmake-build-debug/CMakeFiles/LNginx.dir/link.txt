@@ -1,1 +1,1 @@
-/usr/bin/c++   -pthread -g   CMakeFiles/LNginx.dir/main.cpp.o CMakeFiles/LNginx.dir/socket.cpp.o CMakeFiles/LNginx.dir/server2.cpp.o CMakeFiles/LNginx.dir/LLMap.cpp.o  -o LNginx 
+/usr/bin/c++   -pthread -g   CMakeFiles/LNginx.dir/main.cpp.o CMakeFiles/LNginx.dir/socket.cpp.o CMakeFiles/LNginx.dir/server2.cpp.o CMakeFiles/LNginx.dir/LLMap.cpp.o CMakeFiles/LNginx.dir/epollServer.cpp.o  -o LNginx 

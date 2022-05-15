@@ -204,6 +204,33 @@ client.cpp.s:
 	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/client.cpp.s
 .PHONY : client.cpp.s
 
+epollServer.o: epollServer.cpp.o
+
+.PHONY : epollServer.o
+
+# target to build an object file
+epollServer.cpp.o:
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/epollServer.cpp.o
+.PHONY : epollServer.cpp.o
+
+epollServer.i: epollServer.cpp.i
+
+.PHONY : epollServer.i
+
+# target to preprocess a source file
+epollServer.cpp.i:
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/epollServer.cpp.i
+.PHONY : epollServer.cpp.i
+
+epollServer.s: epollServer.cpp.s
+
+.PHONY : epollServer.s
+
+# target to generate assembly for a file
+epollServer.cpp.s:
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/epollServer.cpp.s
+.PHONY : epollServer.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -249,6 +276,9 @@ help:
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"
+	@echo "... epollServer.o"
+	@echo "... epollServer.i"
+	@echo "... epollServer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

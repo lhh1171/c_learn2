@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LNginx.dir/LLMap.cpp.o"
+  "CMakeFiles/LNginx.dir/epollServer.cpp.o"
   "CMakeFiles/LNginx.dir/main.cpp.o"
   "CMakeFiles/LNginx.dir/server2.cpp.o"
   "CMakeFiles/LNginx.dir/socket.cpp.o"
