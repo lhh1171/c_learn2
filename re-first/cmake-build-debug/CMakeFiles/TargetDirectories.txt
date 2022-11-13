@@ -1,3 +1,0 @@
-/home/lqc/CLionProjects/re-first/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lqc/CLionProjects/re-first/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/lqc/CLionProjects/re-first/cmake-build-debug/CMakeFiles/re_first.dir
