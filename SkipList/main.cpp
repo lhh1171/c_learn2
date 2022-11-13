@@ -7,7 +7,6 @@ using namespace std;
 class Node {
 public:
     int key;
-
     // forward: means for each level, the node next pointer to which node.
     // 表示每个级别的节点下一个指针指向哪个节点。
     vector<Node *> forward;
@@ -88,7 +87,6 @@ public:
         }
         cur = cur->forward[0];
         return cur != nullptr && cur->key == key;
-
     }
 
     void deleteByKey(int key) {

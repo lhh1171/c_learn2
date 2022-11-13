@@ -3,6 +3,8 @@
 
 CMakeFiles/LNginx.dir/LLMap.cpp.o: ../LLMap.cpp
 
+CMakeFiles/LNginx.dir/epollServer.cpp.o: ../epollServer.cpp
+
 CMakeFiles/LNginx.dir/main.cpp.o: ../main.cpp
 
 CMakeFiles/LNginx.dir/server2.cpp.o: ../server2.cpp

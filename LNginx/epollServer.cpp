@@ -346,11 +346,12 @@ void do_writeserver(int epollfd,int fd,char *buf){
     memset(buf,0,MAXSIZE);
 }
 
-int main()
-{
-    init_map();
-    int listen_socket = Creat_socket();
-    Ep_handler(listen_socket);
-    close(listen_socket);
-    return 0;
-}
+////epoll框架写的
+//int main()
+//{
+//    init_map();
+//    int listen_socket = Creat_socket();
+//    Ep_handler(listen_socket);
+//    close(listen_socket);
+//    return 0;
+//}

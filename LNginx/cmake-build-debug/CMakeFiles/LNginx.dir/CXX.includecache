@@ -6,21 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/lqc/CLionProjects/LNginx/socket.cpp
-sys/socket.h
--
-cstdio
--
-unistd.h
--
-arpa/inet.h
--
-cstring
--
-thread
--
-exception
--
-iostream
--
+/home/lqc/CLionProjects/LNginx/epollServer.cpp
 
