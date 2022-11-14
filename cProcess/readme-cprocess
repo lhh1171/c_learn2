@@ -1,0 +1,81 @@
+unistd:
+1、fork1--------通过fork派生子进程
+2、forkshare----子进程与父进程仅仅共享代码段内存
+3、execve1-------不生成新的进程id，但是可以替换原有执行的内容
+4、exitecho-----_exit是系统调用，因此不会进行缓冲区刷写
+5、zombie-------僵尸进程( ps -auwx|grep testio )
+
+sys:
+6、wait1-3-----通过wait方法收集死掉的子进程，防止僵尸进程
+
+unistd:
+7、signal1-----信号(单信号处理)
+   kill1-------发送信号
+   signal2-----多信号处理
+   signal3-----alarm信号
+   signal4-----pause信号
+8、daemon1-----将进程改变为守护进程
+               步骤如下：
+               1、创建子进程，干掉父进程
+               2、创建一个新的会话，并担任root
+               3、改变当前目录为根目录
+               4、重设文件权限掩码000
+               5、关闭文件描述符
+               6、守护进程退出处理
+9、pipe1-2-----1、无名管道  2、有名管道
+
+sys:
+
+linux共享内存方式：
+1）mmap
+2）posix：shm_open：POSIX共享内存实际上毫无新意，它本质上是mmap对文件的共享方式映射，只不过映射的是tmpfs文件系统上的文件。
+                 tmpfs是将一部分内存空间用作文件系统，一般挂在/dev/shm目录。
+                 Linux提供的POSIX共享内存，实际上就是在/dev/shm下创建一个文件，并将其mmap之后映射其内存地址即可。可以通过man shm_overview查看使用方法。
+3）xsi：systemv共享内存：shmget：XSI是X/Open组织对UNIX定义的一套接口标准（X/Open System Interface）。XSI共享内存在Linux底层的实现实际上跟mmap没有什么本质不同，只是在使用方法上有所区别。
+4）ksm（共享内核内存）：实际上无论是posix还是system v接口的共享内存，都是使用mmap来实现的，其原理也是一样的。把一个文件（可以是特殊文件或普通文件）映射到不同进程的地址空间，从上面描述的mmap的原理可以得知，一个文件在内核page cache中只有一份，不同的进程操作对同一个文件区域的映射，实际上就实现了对内存的共享。
+
+10、msg1--------消息队列
+11、msg2--------posix消息队列
+                mkdir /dev/mqueue
+                mount -t mqueue none /dev/mqueue
+12、shm1--------xsi共享内存
+13、shm2--------posix共享内存
+14、sem1-------信号量(System V信号量)
+15、sem2-------信号量（Posix信号量）
+
+
+==========================================================================================================================================================
+修改共享内存内核配置：
+
+1、SHMMAX
+一个进程可以在它的虚拟地址空间分配给一个共享内存端的最大大小（单位是字节）
+echo 2147483648 > /proc/sys/kernel/shmmax
+或
+sysctl -w kernel.shmmax=2147483648
+或
+echo "kenerl.shmmax=2147483648" >> /etc/sysctl.conf
+
+
+2、SHMMNI
+系统范围内共享内存段的数量
+echo 4096 > /proc/sys/kernel/shmmni
+或
+sysctl -w kernel.shmmni=4096
+或
+echo "kernel.shmmni=4096" >> /etc/sysctl.conf
+
+
+3、SHMALL
+这个参数设置了系统范围内共享内存可以使用的页数。单位是PAGE_SIZE（通常是4096，可以通过getconf PAGE_SIZE获得）。
+echo 2097152 > /proc/sys/kernel/shmall
+或
+sysctl -w kernel.shmall=2097152
+或
+echo "kernel.shmall=2097152" >> /etc/sysctl.conf
+
+4、移除共享内存
+执行ipcs -m查看系统所有的共享内存。如果status字段是dest，表明这段共享内存需要被删除。
+ipcs -m -i $shmid
+
+
+

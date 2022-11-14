@@ -12,11 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a28385-bedf-45d2-ad32-fea1c16b934f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/syscall.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/syscall.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/syscall.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/syscall.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/syscall" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/syscall" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cProcess/execve1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cProcess/fork1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cProcess/forkshare.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +59,7 @@
       <workItem from="1650721624805" duration="1730000" />
       <workItem from="1650809249403" duration="3166000" />
       <workItem from="1650812572809" duration="1367000" />
+      <workItem from="1668433263670" duration="18000" />
     </task>
     <servers />
   </component>
