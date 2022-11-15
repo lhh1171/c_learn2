@@ -38,8 +38,10 @@ linux共享内存方式：
 11、msg2--------posix消息队列
                 mkdir /dev/mqueue
                 mount -t mqueue none /dev/mqueue
+
 12、shm1--------xsi共享内存
 13、shm2--------posix共享内存
+
 14、sem1-------信号量(System V信号量)
 15、sem2-------信号量（Posix信号量）
 

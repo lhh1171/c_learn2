@@ -8,7 +8,7 @@ union payload{
     int val;
 };
 void wait(int id){
-    struct sembuf set;
+    struct sembuf set{};
     set.sem_num = 0;
     set.sem_op = -1;
     set.sem_flg = SEM_UNDO;
@@ -16,7 +16,7 @@ void wait(int id){
 }
 
 void post(int id){
-    struct sembuf set;
+    struct sembuf set{};
     set.sem_num = 0;
     set.sem_op = 1;
     set.sem_flg = SEM_UNDO;
@@ -25,7 +25,7 @@ void post(int id){
 
 int sem1(){
     int semid=semget(1234,1,IPC_CREAT|0600);
-    union payload initsem;
+    union payload initsem{};
     initsem.val = 1;
     semctl(semid,0,SETVAL,initsem);
     pid_t pid;
