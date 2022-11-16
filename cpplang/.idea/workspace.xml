@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="cpplang" targetName="cpplang" />
@@ -11,193 +29,75 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eb2c8bd-d04f-4ed0-bbff-73e66a45768c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+    <list default="true" id="138706f4-cc8c-4b0d-a6f2-adb065a31de9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bad_allocExp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classtest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classtest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classtest2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classtest3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classtest4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classtest5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classtest6.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constructor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constructor2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constructor2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constructor3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constructor4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delete.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discon.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discon2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discon3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exceptiontest1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exceptiontest2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extends.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extendsdiscon.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extendsdiscon2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friend1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friend2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inline1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/namespacetest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opt1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opt2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opt3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opt4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opt5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opt6.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opt7.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme-cpplang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticmember.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strint.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templateopt.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmplate11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virbase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virbase2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual5.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpplang" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpplang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpplang.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpplang.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../iowork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../iowork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/.idea/job.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/job.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/job.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/job.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/job.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/job.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/job.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/job.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/cmake-build-debug/job.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../job/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/.idea/jobs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/jobs.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/jobs.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/jobs.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/jobs.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/jobs.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/jobs.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/jobs.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/jobs.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/jobs.dir/main.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/jobs.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/jobs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/cmake-build-debug/jobs.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobs/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/.idea/oo1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/oo1.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/oo1.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/oo1.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/oo1.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/oo1.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/oo1.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/oo1.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/oo1.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/cmake-build-debug/oo1.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/library.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo1/library.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../oo2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oo2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../oo2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/.idea/re-first.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/re_first.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/re_first.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/re_first.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/re_first.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/re_first.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/re_first.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/re_first.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/re_first.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/re_first.dir/main.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/CMakeFiles/re_first.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/re_first" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/cmake-build-debug/re_first.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../re-first/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/.idea/ww.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/ww.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/ww.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/ww.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/ww.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/ww.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/ww.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/CMakeFiles/ww.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/cmake-build-debug/ww.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ww/main.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,19 +111,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="27YDS8Yzj6mdJSddCcCvFf4ZrCu" />
+  <component name="ProjectId" id="2Hbzv0MV24jYJ5oQZ2dFsNJYVIY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="cpplang" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpplang" TARGET_NAME="cpplang" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpplang" RUN_TARGET_NAME="cpplang">
@@ -237,42 +145,55 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1eb2c8bd-d04f-4ed0-bbff-73e66a45768c" name="Default Changelist" comment="" />
-      <created>1649488122367</created>
+      <changelist id="138706f4-cc8c-4b0d-a6f2-adb065a31de9" name="Default Changelist" comment="" />
+      <created>1668568797490</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649488122367</updated>
-      <workItem from="1649488124331" duration="1789000" />
-      <workItem from="1649498950048" duration="606000" />
-      <workItem from="1649499971105" duration="96000" />
-      <workItem from="1649500132133" duration="24000" />
-      <workItem from="1668344401086" duration="9000" />
+      <updated>1668568797490</updated>
+      <workItem from="1668568798753" duration="3733000" />
+      <workItem from="1668604152699" duration="1576000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1226" height="372" key="GridCell.Tab.0.bottom" timestamp="1649492426835">
+    <state x="3507" y="503" width="645" height="421" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1668580286029">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="1226" height="372" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1649492426835" />
-    <state width="1226" height="372" key="GridCell.Tab.0.center" timestamp="1649492426835">
+    <state x="3507" y="503" width="645" height="421" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668580286029" />
+    <state width="1216" height="346" key="GridCell.Tab.0.bottom" timestamp="1668606872142">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="1226" height="372" key="GridCell.Tab.0.center/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1649492426835" />
-    <state width="1226" height="372" key="GridCell.Tab.0.left" timestamp="1649492426835">
+    <state width="1216" height="346" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668606872142" />
+    <state width="1216" height="346" key="GridCell.Tab.0.center" timestamp="1668606872142">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="1226" height="372" key="GridCell.Tab.0.left/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1649492426835" />
-    <state width="1226" height="372" key="GridCell.Tab.0.right" timestamp="1649492426835">
+    <state width="1216" height="346" key="GridCell.Tab.0.center/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668606872142" />
+    <state width="1216" height="346" key="GridCell.Tab.0.left" timestamp="1668606872142">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="1226" height="372" key="GridCell.Tab.0.right/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1649492426835" />
-    <state x="3321" y="341" width="1037" height="737" key="SettingsEditor" timestamp="1649488571632">
+    <state width="1216" height="346" key="GridCell.Tab.0.left/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668606872142" />
+    <state width="1216" height="346" key="GridCell.Tab.0.right" timestamp="1668606872142">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="3321" y="341" width="1037" height="737" key="SettingsEditor/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1649488571632" />
+    <state width="1216" height="346" key="GridCell.Tab.0.right/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668606872142" />
+    <state x="3498" y="335" width="672" height="678" key="search.everywhere.popup" timestamp="1668606636172">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3498" y="335" width="672" height="678" key="search.everywhere.popup/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668606636172" />
   </component>
 </project>

@@ -123,6 +123,627 @@ cpplang/fast:
 	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/build
 .PHONY : cpplang/fast
 
+bad_allocExp.o: bad_allocExp.cpp.o
+
+.PHONY : bad_allocExp.o
+
+# target to build an object file
+bad_allocExp.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/bad_allocExp.cpp.o
+.PHONY : bad_allocExp.cpp.o
+
+bad_allocExp.i: bad_allocExp.cpp.i
+
+.PHONY : bad_allocExp.i
+
+# target to preprocess a source file
+bad_allocExp.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/bad_allocExp.cpp.i
+.PHONY : bad_allocExp.cpp.i
+
+bad_allocExp.s: bad_allocExp.cpp.s
+
+.PHONY : bad_allocExp.s
+
+# target to generate assembly for a file
+bad_allocExp.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/bad_allocExp.cpp.s
+.PHONY : bad_allocExp.cpp.s
+
+classtest.o: classtest.cpp.o
+
+.PHONY : classtest.o
+
+# target to build an object file
+classtest.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest.cpp.o
+.PHONY : classtest.cpp.o
+
+classtest.i: classtest.cpp.i
+
+.PHONY : classtest.i
+
+# target to preprocess a source file
+classtest.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest.cpp.i
+.PHONY : classtest.cpp.i
+
+classtest.s: classtest.cpp.s
+
+.PHONY : classtest.s
+
+# target to generate assembly for a file
+classtest.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest.cpp.s
+.PHONY : classtest.cpp.s
+
+classtest2.o: classtest2.cpp.o
+
+.PHONY : classtest2.o
+
+# target to build an object file
+classtest2.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest2.cpp.o
+.PHONY : classtest2.cpp.o
+
+classtest2.i: classtest2.cpp.i
+
+.PHONY : classtest2.i
+
+# target to preprocess a source file
+classtest2.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest2.cpp.i
+.PHONY : classtest2.cpp.i
+
+classtest2.s: classtest2.cpp.s
+
+.PHONY : classtest2.s
+
+# target to generate assembly for a file
+classtest2.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest2.cpp.s
+.PHONY : classtest2.cpp.s
+
+classtest3.o: classtest3.cpp.o
+
+.PHONY : classtest3.o
+
+# target to build an object file
+classtest3.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest3.cpp.o
+.PHONY : classtest3.cpp.o
+
+classtest3.i: classtest3.cpp.i
+
+.PHONY : classtest3.i
+
+# target to preprocess a source file
+classtest3.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest3.cpp.i
+.PHONY : classtest3.cpp.i
+
+classtest3.s: classtest3.cpp.s
+
+.PHONY : classtest3.s
+
+# target to generate assembly for a file
+classtest3.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest3.cpp.s
+.PHONY : classtest3.cpp.s
+
+classtest4.o: classtest4.cpp.o
+
+.PHONY : classtest4.o
+
+# target to build an object file
+classtest4.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest4.cpp.o
+.PHONY : classtest4.cpp.o
+
+classtest4.i: classtest4.cpp.i
+
+.PHONY : classtest4.i
+
+# target to preprocess a source file
+classtest4.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest4.cpp.i
+.PHONY : classtest4.cpp.i
+
+classtest4.s: classtest4.cpp.s
+
+.PHONY : classtest4.s
+
+# target to generate assembly for a file
+classtest4.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest4.cpp.s
+.PHONY : classtest4.cpp.s
+
+classtest5.o: classtest5.cpp.o
+
+.PHONY : classtest5.o
+
+# target to build an object file
+classtest5.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest5.cpp.o
+.PHONY : classtest5.cpp.o
+
+classtest5.i: classtest5.cpp.i
+
+.PHONY : classtest5.i
+
+# target to preprocess a source file
+classtest5.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest5.cpp.i
+.PHONY : classtest5.cpp.i
+
+classtest5.s: classtest5.cpp.s
+
+.PHONY : classtest5.s
+
+# target to generate assembly for a file
+classtest5.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest5.cpp.s
+.PHONY : classtest5.cpp.s
+
+classtest6.o: classtest6.cpp.o
+
+.PHONY : classtest6.o
+
+# target to build an object file
+classtest6.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest6.cpp.o
+.PHONY : classtest6.cpp.o
+
+classtest6.i: classtest6.cpp.i
+
+.PHONY : classtest6.i
+
+# target to preprocess a source file
+classtest6.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest6.cpp.i
+.PHONY : classtest6.cpp.i
+
+classtest6.s: classtest6.cpp.s
+
+.PHONY : classtest6.s
+
+# target to generate assembly for a file
+classtest6.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/classtest6.cpp.s
+.PHONY : classtest6.cpp.s
+
+constructor.o: constructor.cpp.o
+
+.PHONY : constructor.o
+
+# target to build an object file
+constructor.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/constructor.cpp.o
+.PHONY : constructor.cpp.o
+
+constructor.i: constructor.cpp.i
+
+.PHONY : constructor.i
+
+# target to preprocess a source file
+constructor.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/constructor.cpp.i
+.PHONY : constructor.cpp.i
+
+constructor.s: constructor.cpp.s
+
+.PHONY : constructor.s
+
+# target to generate assembly for a file
+constructor.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/constructor.cpp.s
+.PHONY : constructor.cpp.s
+
+constructor2.o: constructor2.cpp.o
+
+.PHONY : constructor2.o
+
+# target to build an object file
+constructor2.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/constructor2.cpp.o
+.PHONY : constructor2.cpp.o
+
+constructor2.i: constructor2.cpp.i
+
+.PHONY : constructor2.i
+
+# target to preprocess a source file
+constructor2.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/constructor2.cpp.i
+.PHONY : constructor2.cpp.i
+
+constructor2.s: constructor2.cpp.s
+
+.PHONY : constructor2.s
+
+# target to generate assembly for a file
+constructor2.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/constructor2.cpp.s
+.PHONY : constructor2.cpp.s
+
+constructor3.o: constructor3.cpp.o
+
+.PHONY : constructor3.o
+
+# target to build an object file
+constructor3.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/constructor3.cpp.o
+.PHONY : constructor3.cpp.o
+
+constructor3.i: constructor3.cpp.i
+
+.PHONY : constructor3.i
+
+# target to preprocess a source file
+constructor3.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/constructor3.cpp.i
+.PHONY : constructor3.cpp.i
+
+constructor3.s: constructor3.cpp.s
+
+.PHONY : constructor3.s
+
+# target to generate assembly for a file
+constructor3.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/constructor3.cpp.s
+.PHONY : constructor3.cpp.s
+
+constructor4.o: constructor4.cpp.o
+
+.PHONY : constructor4.o
+
+# target to build an object file
+constructor4.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/constructor4.cpp.o
+.PHONY : constructor4.cpp.o
+
+constructor4.i: constructor4.cpp.i
+
+.PHONY : constructor4.i
+
+# target to preprocess a source file
+constructor4.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/constructor4.cpp.i
+.PHONY : constructor4.cpp.i
+
+constructor4.s: constructor4.cpp.s
+
+.PHONY : constructor4.s
+
+# target to generate assembly for a file
+constructor4.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/constructor4.cpp.s
+.PHONY : constructor4.cpp.s
+
+delete.o: delete.cpp.o
+
+.PHONY : delete.o
+
+# target to build an object file
+delete.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/delete.cpp.o
+.PHONY : delete.cpp.o
+
+delete.i: delete.cpp.i
+
+.PHONY : delete.i
+
+# target to preprocess a source file
+delete.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/delete.cpp.i
+.PHONY : delete.cpp.i
+
+delete.s: delete.cpp.s
+
+.PHONY : delete.s
+
+# target to generate assembly for a file
+delete.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/delete.cpp.s
+.PHONY : delete.cpp.s
+
+discon.o: discon.cpp.o
+
+.PHONY : discon.o
+
+# target to build an object file
+discon.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/discon.cpp.o
+.PHONY : discon.cpp.o
+
+discon.i: discon.cpp.i
+
+.PHONY : discon.i
+
+# target to preprocess a source file
+discon.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/discon.cpp.i
+.PHONY : discon.cpp.i
+
+discon.s: discon.cpp.s
+
+.PHONY : discon.s
+
+# target to generate assembly for a file
+discon.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/discon.cpp.s
+.PHONY : discon.cpp.s
+
+discon2.o: discon2.cpp.o
+
+.PHONY : discon2.o
+
+# target to build an object file
+discon2.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/discon2.cpp.o
+.PHONY : discon2.cpp.o
+
+discon2.i: discon2.cpp.i
+
+.PHONY : discon2.i
+
+# target to preprocess a source file
+discon2.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/discon2.cpp.i
+.PHONY : discon2.cpp.i
+
+discon2.s: discon2.cpp.s
+
+.PHONY : discon2.s
+
+# target to generate assembly for a file
+discon2.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/discon2.cpp.s
+.PHONY : discon2.cpp.s
+
+discon3.o: discon3.cpp.o
+
+.PHONY : discon3.o
+
+# target to build an object file
+discon3.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/discon3.cpp.o
+.PHONY : discon3.cpp.o
+
+discon3.i: discon3.cpp.i
+
+.PHONY : discon3.i
+
+# target to preprocess a source file
+discon3.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/discon3.cpp.i
+.PHONY : discon3.cpp.i
+
+discon3.s: discon3.cpp.s
+
+.PHONY : discon3.s
+
+# target to generate assembly for a file
+discon3.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/discon3.cpp.s
+.PHONY : discon3.cpp.s
+
+exceptiontest1.o: exceptiontest1.cpp.o
+
+.PHONY : exceptiontest1.o
+
+# target to build an object file
+exceptiontest1.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/exceptiontest1.cpp.o
+.PHONY : exceptiontest1.cpp.o
+
+exceptiontest1.i: exceptiontest1.cpp.i
+
+.PHONY : exceptiontest1.i
+
+# target to preprocess a source file
+exceptiontest1.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/exceptiontest1.cpp.i
+.PHONY : exceptiontest1.cpp.i
+
+exceptiontest1.s: exceptiontest1.cpp.s
+
+.PHONY : exceptiontest1.s
+
+# target to generate assembly for a file
+exceptiontest1.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/exceptiontest1.cpp.s
+.PHONY : exceptiontest1.cpp.s
+
+exceptiontest2.o: exceptiontest2.cpp.o
+
+.PHONY : exceptiontest2.o
+
+# target to build an object file
+exceptiontest2.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/exceptiontest2.cpp.o
+.PHONY : exceptiontest2.cpp.o
+
+exceptiontest2.i: exceptiontest2.cpp.i
+
+.PHONY : exceptiontest2.i
+
+# target to preprocess a source file
+exceptiontest2.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/exceptiontest2.cpp.i
+.PHONY : exceptiontest2.cpp.i
+
+exceptiontest2.s: exceptiontest2.cpp.s
+
+.PHONY : exceptiontest2.s
+
+# target to generate assembly for a file
+exceptiontest2.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/exceptiontest2.cpp.s
+.PHONY : exceptiontest2.cpp.s
+
+extends.o: extends.cpp.o
+
+.PHONY : extends.o
+
+# target to build an object file
+extends.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/extends.cpp.o
+.PHONY : extends.cpp.o
+
+extends.i: extends.cpp.i
+
+.PHONY : extends.i
+
+# target to preprocess a source file
+extends.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/extends.cpp.i
+.PHONY : extends.cpp.i
+
+extends.s: extends.cpp.s
+
+.PHONY : extends.s
+
+# target to generate assembly for a file
+extends.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/extends.cpp.s
+.PHONY : extends.cpp.s
+
+extendsdiscon.o: extendsdiscon.cpp.o
+
+.PHONY : extendsdiscon.o
+
+# target to build an object file
+extendsdiscon.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/extendsdiscon.cpp.o
+.PHONY : extendsdiscon.cpp.o
+
+extendsdiscon.i: extendsdiscon.cpp.i
+
+.PHONY : extendsdiscon.i
+
+# target to preprocess a source file
+extendsdiscon.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/extendsdiscon.cpp.i
+.PHONY : extendsdiscon.cpp.i
+
+extendsdiscon.s: extendsdiscon.cpp.s
+
+.PHONY : extendsdiscon.s
+
+# target to generate assembly for a file
+extendsdiscon.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/extendsdiscon.cpp.s
+.PHONY : extendsdiscon.cpp.s
+
+extendsdiscon2.o: extendsdiscon2.cpp.o
+
+.PHONY : extendsdiscon2.o
+
+# target to build an object file
+extendsdiscon2.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/extendsdiscon2.cpp.o
+.PHONY : extendsdiscon2.cpp.o
+
+extendsdiscon2.i: extendsdiscon2.cpp.i
+
+.PHONY : extendsdiscon2.i
+
+# target to preprocess a source file
+extendsdiscon2.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/extendsdiscon2.cpp.i
+.PHONY : extendsdiscon2.cpp.i
+
+extendsdiscon2.s: extendsdiscon2.cpp.s
+
+.PHONY : extendsdiscon2.s
+
+# target to generate assembly for a file
+extendsdiscon2.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/extendsdiscon2.cpp.s
+.PHONY : extendsdiscon2.cpp.s
+
+friend1.o: friend1.cpp.o
+
+.PHONY : friend1.o
+
+# target to build an object file
+friend1.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/friend1.cpp.o
+.PHONY : friend1.cpp.o
+
+friend1.i: friend1.cpp.i
+
+.PHONY : friend1.i
+
+# target to preprocess a source file
+friend1.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/friend1.cpp.i
+.PHONY : friend1.cpp.i
+
+friend1.s: friend1.cpp.s
+
+.PHONY : friend1.s
+
+# target to generate assembly for a file
+friend1.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/friend1.cpp.s
+.PHONY : friend1.cpp.s
+
+friend2.o: friend2.cpp.o
+
+.PHONY : friend2.o
+
+# target to build an object file
+friend2.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/friend2.cpp.o
+.PHONY : friend2.cpp.o
+
+friend2.i: friend2.cpp.i
+
+.PHONY : friend2.i
+
+# target to preprocess a source file
+friend2.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/friend2.cpp.i
+.PHONY : friend2.cpp.i
+
+friend2.s: friend2.cpp.s
+
+.PHONY : friend2.s
+
+# target to generate assembly for a file
+friend2.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/friend2.cpp.s
+.PHONY : friend2.cpp.s
+
+inline1.o: inline1.cpp.o
+
+.PHONY : inline1.o
+
+# target to build an object file
+inline1.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/inline1.cpp.o
+.PHONY : inline1.cpp.o
+
+inline1.i: inline1.cpp.i
+
+.PHONY : inline1.i
+
+# target to preprocess a source file
+inline1.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/inline1.cpp.i
+.PHONY : inline1.cpp.i
+
+inline1.s: inline1.cpp.s
+
+.PHONY : inline1.s
+
+# target to generate assembly for a file
+inline1.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/inline1.cpp.s
+.PHONY : inline1.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +771,600 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+member.o: member.cpp.o
+
+.PHONY : member.o
+
+# target to build an object file
+member.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/member.cpp.o
+.PHONY : member.cpp.o
+
+member.i: member.cpp.i
+
+.PHONY : member.i
+
+# target to preprocess a source file
+member.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/member.cpp.i
+.PHONY : member.cpp.i
+
+member.s: member.cpp.s
+
+.PHONY : member.s
+
+# target to generate assembly for a file
+member.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/member.cpp.s
+.PHONY : member.cpp.s
+
+namespacetest.o: namespacetest.cpp.o
+
+.PHONY : namespacetest.o
+
+# target to build an object file
+namespacetest.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/namespacetest.cpp.o
+.PHONY : namespacetest.cpp.o
+
+namespacetest.i: namespacetest.cpp.i
+
+.PHONY : namespacetest.i
+
+# target to preprocess a source file
+namespacetest.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/namespacetest.cpp.i
+.PHONY : namespacetest.cpp.i
+
+namespacetest.s: namespacetest.cpp.s
+
+.PHONY : namespacetest.s
+
+# target to generate assembly for a file
+namespacetest.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/namespacetest.cpp.s
+.PHONY : namespacetest.cpp.s
+
+opt1.o: opt1.cpp.o
+
+.PHONY : opt1.o
+
+# target to build an object file
+opt1.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt1.cpp.o
+.PHONY : opt1.cpp.o
+
+opt1.i: opt1.cpp.i
+
+.PHONY : opt1.i
+
+# target to preprocess a source file
+opt1.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt1.cpp.i
+.PHONY : opt1.cpp.i
+
+opt1.s: opt1.cpp.s
+
+.PHONY : opt1.s
+
+# target to generate assembly for a file
+opt1.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt1.cpp.s
+.PHONY : opt1.cpp.s
+
+opt2.o: opt2.cpp.o
+
+.PHONY : opt2.o
+
+# target to build an object file
+opt2.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt2.cpp.o
+.PHONY : opt2.cpp.o
+
+opt2.i: opt2.cpp.i
+
+.PHONY : opt2.i
+
+# target to preprocess a source file
+opt2.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt2.cpp.i
+.PHONY : opt2.cpp.i
+
+opt2.s: opt2.cpp.s
+
+.PHONY : opt2.s
+
+# target to generate assembly for a file
+opt2.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt2.cpp.s
+.PHONY : opt2.cpp.s
+
+opt3.o: opt3.cpp.o
+
+.PHONY : opt3.o
+
+# target to build an object file
+opt3.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt3.cpp.o
+.PHONY : opt3.cpp.o
+
+opt3.i: opt3.cpp.i
+
+.PHONY : opt3.i
+
+# target to preprocess a source file
+opt3.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt3.cpp.i
+.PHONY : opt3.cpp.i
+
+opt3.s: opt3.cpp.s
+
+.PHONY : opt3.s
+
+# target to generate assembly for a file
+opt3.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt3.cpp.s
+.PHONY : opt3.cpp.s
+
+opt4.o: opt4.cpp.o
+
+.PHONY : opt4.o
+
+# target to build an object file
+opt4.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt4.cpp.o
+.PHONY : opt4.cpp.o
+
+opt4.i: opt4.cpp.i
+
+.PHONY : opt4.i
+
+# target to preprocess a source file
+opt4.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt4.cpp.i
+.PHONY : opt4.cpp.i
+
+opt4.s: opt4.cpp.s
+
+.PHONY : opt4.s
+
+# target to generate assembly for a file
+opt4.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt4.cpp.s
+.PHONY : opt4.cpp.s
+
+opt5.o: opt5.cpp.o
+
+.PHONY : opt5.o
+
+# target to build an object file
+opt5.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt5.cpp.o
+.PHONY : opt5.cpp.o
+
+opt5.i: opt5.cpp.i
+
+.PHONY : opt5.i
+
+# target to preprocess a source file
+opt5.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt5.cpp.i
+.PHONY : opt5.cpp.i
+
+opt5.s: opt5.cpp.s
+
+.PHONY : opt5.s
+
+# target to generate assembly for a file
+opt5.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt5.cpp.s
+.PHONY : opt5.cpp.s
+
+opt6.o: opt6.cpp.o
+
+.PHONY : opt6.o
+
+# target to build an object file
+opt6.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt6.cpp.o
+.PHONY : opt6.cpp.o
+
+opt6.i: opt6.cpp.i
+
+.PHONY : opt6.i
+
+# target to preprocess a source file
+opt6.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt6.cpp.i
+.PHONY : opt6.cpp.i
+
+opt6.s: opt6.cpp.s
+
+.PHONY : opt6.s
+
+# target to generate assembly for a file
+opt6.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt6.cpp.s
+.PHONY : opt6.cpp.s
+
+opt7.o: opt7.cpp.o
+
+.PHONY : opt7.o
+
+# target to build an object file
+opt7.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt7.cpp.o
+.PHONY : opt7.cpp.o
+
+opt7.i: opt7.cpp.i
+
+.PHONY : opt7.i
+
+# target to preprocess a source file
+opt7.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt7.cpp.i
+.PHONY : opt7.cpp.i
+
+opt7.s: opt7.cpp.s
+
+.PHONY : opt7.s
+
+# target to generate assembly for a file
+opt7.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt7.cpp.s
+.PHONY : opt7.cpp.s
+
+opt8.o: opt8.cpp.o
+
+.PHONY : opt8.o
+
+# target to build an object file
+opt8.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt8.cpp.o
+.PHONY : opt8.cpp.o
+
+opt8.i: opt8.cpp.i
+
+.PHONY : opt8.i
+
+# target to preprocess a source file
+opt8.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt8.cpp.i
+.PHONY : opt8.cpp.i
+
+opt8.s: opt8.cpp.s
+
+.PHONY : opt8.s
+
+# target to generate assembly for a file
+opt8.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/opt8.cpp.s
+.PHONY : opt8.cpp.s
+
+singleton.o: singleton.cpp.o
+
+.PHONY : singleton.o
+
+# target to build an object file
+singleton.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/singleton.cpp.o
+.PHONY : singleton.cpp.o
+
+singleton.i: singleton.cpp.i
+
+.PHONY : singleton.i
+
+# target to preprocess a source file
+singleton.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/singleton.cpp.i
+.PHONY : singleton.cpp.i
+
+singleton.s: singleton.cpp.s
+
+.PHONY : singleton.s
+
+# target to generate assembly for a file
+singleton.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/singleton.cpp.s
+.PHONY : singleton.cpp.s
+
+staticmember.o: staticmember.cpp.o
+
+.PHONY : staticmember.o
+
+# target to build an object file
+staticmember.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/staticmember.cpp.o
+.PHONY : staticmember.cpp.o
+
+staticmember.i: staticmember.cpp.i
+
+.PHONY : staticmember.i
+
+# target to preprocess a source file
+staticmember.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/staticmember.cpp.i
+.PHONY : staticmember.cpp.i
+
+staticmember.s: staticmember.cpp.s
+
+.PHONY : staticmember.s
+
+# target to generate assembly for a file
+staticmember.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/staticmember.cpp.s
+.PHONY : staticmember.cpp.s
+
+strint.o: strint.cpp.o
+
+.PHONY : strint.o
+
+# target to build an object file
+strint.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/strint.cpp.o
+.PHONY : strint.cpp.o
+
+strint.i: strint.cpp.i
+
+.PHONY : strint.i
+
+# target to preprocess a source file
+strint.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/strint.cpp.i
+.PHONY : strint.cpp.i
+
+strint.s: strint.cpp.s
+
+.PHONY : strint.s
+
+# target to generate assembly for a file
+strint.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/strint.cpp.s
+.PHONY : strint.cpp.s
+
+templateopt.o: templateopt.cpp.o
+
+.PHONY : templateopt.o
+
+# target to build an object file
+templateopt.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/templateopt.cpp.o
+.PHONY : templateopt.cpp.o
+
+templateopt.i: templateopt.cpp.i
+
+.PHONY : templateopt.i
+
+# target to preprocess a source file
+templateopt.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/templateopt.cpp.i
+.PHONY : templateopt.cpp.i
+
+templateopt.s: templateopt.cpp.s
+
+.PHONY : templateopt.s
+
+# target to generate assembly for a file
+templateopt.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/templateopt.cpp.s
+.PHONY : templateopt.cpp.s
+
+tmplate11.o: tmplate11.cpp.o
+
+.PHONY : tmplate11.o
+
+# target to build an object file
+tmplate11.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/tmplate11.cpp.o
+.PHONY : tmplate11.cpp.o
+
+tmplate11.i: tmplate11.cpp.i
+
+.PHONY : tmplate11.i
+
+# target to preprocess a source file
+tmplate11.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/tmplate11.cpp.i
+.PHONY : tmplate11.cpp.i
+
+tmplate11.s: tmplate11.cpp.s
+
+.PHONY : tmplate11.s
+
+# target to generate assembly for a file
+tmplate11.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/tmplate11.cpp.s
+.PHONY : tmplate11.cpp.s
+
+virbase.o: virbase.cpp.o
+
+.PHONY : virbase.o
+
+# target to build an object file
+virbase.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virbase.cpp.o
+.PHONY : virbase.cpp.o
+
+virbase.i: virbase.cpp.i
+
+.PHONY : virbase.i
+
+# target to preprocess a source file
+virbase.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virbase.cpp.i
+.PHONY : virbase.cpp.i
+
+virbase.s: virbase.cpp.s
+
+.PHONY : virbase.s
+
+# target to generate assembly for a file
+virbase.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virbase.cpp.s
+.PHONY : virbase.cpp.s
+
+virbase2.o: virbase2.cpp.o
+
+.PHONY : virbase2.o
+
+# target to build an object file
+virbase2.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virbase2.cpp.o
+.PHONY : virbase2.cpp.o
+
+virbase2.i: virbase2.cpp.i
+
+.PHONY : virbase2.i
+
+# target to preprocess a source file
+virbase2.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virbase2.cpp.i
+.PHONY : virbase2.cpp.i
+
+virbase2.s: virbase2.cpp.s
+
+.PHONY : virbase2.s
+
+# target to generate assembly for a file
+virbase2.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virbase2.cpp.s
+.PHONY : virbase2.cpp.s
+
+virtual1.o: virtual1.cpp.o
+
+.PHONY : virtual1.o
+
+# target to build an object file
+virtual1.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual1.cpp.o
+.PHONY : virtual1.cpp.o
+
+virtual1.i: virtual1.cpp.i
+
+.PHONY : virtual1.i
+
+# target to preprocess a source file
+virtual1.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual1.cpp.i
+.PHONY : virtual1.cpp.i
+
+virtual1.s: virtual1.cpp.s
+
+.PHONY : virtual1.s
+
+# target to generate assembly for a file
+virtual1.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual1.cpp.s
+.PHONY : virtual1.cpp.s
+
+virtual2.o: virtual2.cpp.o
+
+.PHONY : virtual2.o
+
+# target to build an object file
+virtual2.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual2.cpp.o
+.PHONY : virtual2.cpp.o
+
+virtual2.i: virtual2.cpp.i
+
+.PHONY : virtual2.i
+
+# target to preprocess a source file
+virtual2.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual2.cpp.i
+.PHONY : virtual2.cpp.i
+
+virtual2.s: virtual2.cpp.s
+
+.PHONY : virtual2.s
+
+# target to generate assembly for a file
+virtual2.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual2.cpp.s
+.PHONY : virtual2.cpp.s
+
+virtual3.o: virtual3.cpp.o
+
+.PHONY : virtual3.o
+
+# target to build an object file
+virtual3.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual3.cpp.o
+.PHONY : virtual3.cpp.o
+
+virtual3.i: virtual3.cpp.i
+
+.PHONY : virtual3.i
+
+# target to preprocess a source file
+virtual3.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual3.cpp.i
+.PHONY : virtual3.cpp.i
+
+virtual3.s: virtual3.cpp.s
+
+.PHONY : virtual3.s
+
+# target to generate assembly for a file
+virtual3.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual3.cpp.s
+.PHONY : virtual3.cpp.s
+
+virtual4.o: virtual4.cpp.o
+
+.PHONY : virtual4.o
+
+# target to build an object file
+virtual4.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual4.cpp.o
+.PHONY : virtual4.cpp.o
+
+virtual4.i: virtual4.cpp.i
+
+.PHONY : virtual4.i
+
+# target to preprocess a source file
+virtual4.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual4.cpp.i
+.PHONY : virtual4.cpp.i
+
+virtual4.s: virtual4.cpp.s
+
+.PHONY : virtual4.s
+
+# target to generate assembly for a file
+virtual4.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual4.cpp.s
+.PHONY : virtual4.cpp.s
+
+virtual5.o: virtual5.cpp.o
+
+.PHONY : virtual5.o
+
+# target to build an object file
+virtual5.cpp.o:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual5.cpp.o
+.PHONY : virtual5.cpp.o
+
+virtual5.i: virtual5.cpp.i
+
+.PHONY : virtual5.i
+
+# target to preprocess a source file
+virtual5.cpp.i:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual5.cpp.i
+.PHONY : virtual5.cpp.i
+
+virtual5.s: virtual5.cpp.s
+
+.PHONY : virtual5.s
+
+# target to generate assembly for a file
+virtual5.cpp.s:
+	$(MAKE) -f CMakeFiles/cpplang.dir/build.make CMakeFiles/cpplang.dir/virtual5.cpp.s
+.PHONY : virtual5.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +1374,144 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpplang"
+	@echo "... bad_allocExp.o"
+	@echo "... bad_allocExp.i"
+	@echo "... bad_allocExp.s"
+	@echo "... classtest.o"
+	@echo "... classtest.i"
+	@echo "... classtest.s"
+	@echo "... classtest2.o"
+	@echo "... classtest2.i"
+	@echo "... classtest2.s"
+	@echo "... classtest3.o"
+	@echo "... classtest3.i"
+	@echo "... classtest3.s"
+	@echo "... classtest4.o"
+	@echo "... classtest4.i"
+	@echo "... classtest4.s"
+	@echo "... classtest5.o"
+	@echo "... classtest5.i"
+	@echo "... classtest5.s"
+	@echo "... classtest6.o"
+	@echo "... classtest6.i"
+	@echo "... classtest6.s"
+	@echo "... constructor.o"
+	@echo "... constructor.i"
+	@echo "... constructor.s"
+	@echo "... constructor2.o"
+	@echo "... constructor2.i"
+	@echo "... constructor2.s"
+	@echo "... constructor3.o"
+	@echo "... constructor3.i"
+	@echo "... constructor3.s"
+	@echo "... constructor4.o"
+	@echo "... constructor4.i"
+	@echo "... constructor4.s"
+	@echo "... delete.o"
+	@echo "... delete.i"
+	@echo "... delete.s"
+	@echo "... discon.o"
+	@echo "... discon.i"
+	@echo "... discon.s"
+	@echo "... discon2.o"
+	@echo "... discon2.i"
+	@echo "... discon2.s"
+	@echo "... discon3.o"
+	@echo "... discon3.i"
+	@echo "... discon3.s"
+	@echo "... exceptiontest1.o"
+	@echo "... exceptiontest1.i"
+	@echo "... exceptiontest1.s"
+	@echo "... exceptiontest2.o"
+	@echo "... exceptiontest2.i"
+	@echo "... exceptiontest2.s"
+	@echo "... extends.o"
+	@echo "... extends.i"
+	@echo "... extends.s"
+	@echo "... extendsdiscon.o"
+	@echo "... extendsdiscon.i"
+	@echo "... extendsdiscon.s"
+	@echo "... extendsdiscon2.o"
+	@echo "... extendsdiscon2.i"
+	@echo "... extendsdiscon2.s"
+	@echo "... friend1.o"
+	@echo "... friend1.i"
+	@echo "... friend1.s"
+	@echo "... friend2.o"
+	@echo "... friend2.i"
+	@echo "... friend2.s"
+	@echo "... inline1.o"
+	@echo "... inline1.i"
+	@echo "... inline1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... member.o"
+	@echo "... member.i"
+	@echo "... member.s"
+	@echo "... namespacetest.o"
+	@echo "... namespacetest.i"
+	@echo "... namespacetest.s"
+	@echo "... opt1.o"
+	@echo "... opt1.i"
+	@echo "... opt1.s"
+	@echo "... opt2.o"
+	@echo "... opt2.i"
+	@echo "... opt2.s"
+	@echo "... opt3.o"
+	@echo "... opt3.i"
+	@echo "... opt3.s"
+	@echo "... opt4.o"
+	@echo "... opt4.i"
+	@echo "... opt4.s"
+	@echo "... opt5.o"
+	@echo "... opt5.i"
+	@echo "... opt5.s"
+	@echo "... opt6.o"
+	@echo "... opt6.i"
+	@echo "... opt6.s"
+	@echo "... opt7.o"
+	@echo "... opt7.i"
+	@echo "... opt7.s"
+	@echo "... opt8.o"
+	@echo "... opt8.i"
+	@echo "... opt8.s"
+	@echo "... singleton.o"
+	@echo "... singleton.i"
+	@echo "... singleton.s"
+	@echo "... staticmember.o"
+	@echo "... staticmember.i"
+	@echo "... staticmember.s"
+	@echo "... strint.o"
+	@echo "... strint.i"
+	@echo "... strint.s"
+	@echo "... templateopt.o"
+	@echo "... templateopt.i"
+	@echo "... templateopt.s"
+	@echo "... tmplate11.o"
+	@echo "... tmplate11.i"
+	@echo "... tmplate11.s"
+	@echo "... virbase.o"
+	@echo "... virbase.i"
+	@echo "... virbase.s"
+	@echo "... virbase2.o"
+	@echo "... virbase2.i"
+	@echo "... virbase2.s"
+	@echo "... virtual1.o"
+	@echo "... virtual1.i"
+	@echo "... virtual1.s"
+	@echo "... virtual2.o"
+	@echo "... virtual2.i"
+	@echo "... virtual2.s"
+	@echo "... virtual3.o"
+	@echo "... virtual3.i"
+	@echo "... virtual3.s"
+	@echo "... virtual4.o"
+	@echo "... virtual4.i"
+	@echo "... virtual4.s"
+	@echo "... virtual5.o"
+	@echo "... virtual5.i"
+	@echo "... virtual5.s"
 .PHONY : help
 
 

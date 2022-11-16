@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/lqc/CLionProjects/cpplang/main.cpp
-iostream
+/home/lqc/CLionProjects/cpplang/opt8.cpp
+cstdlib
 -
-stdio.h
+new
+-
+iostream
 -
 

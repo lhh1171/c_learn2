@@ -1,0 +1,26 @@
+1、classtest、classtest2、classtest3、classtest4、classtest5、classtest6
+2、constructor、constructor2、constructor3、constructor4
+3、member
+4、discon、discon2、discon3
+5、extends、extendsdiscon、extendsdiscon2
+6、staticmember
+7、virtual1、virtual2、virtual3、virtual4、virtual5
+8、virbase、virbase2
+9、delete
+10、templateopt
+11、singleton
+12、strint
+13、namespacetest
+14、friend1、friend2
+15、exceptiontest1、exceptiontest2、bad_allocExp
+16、opt1-7 重载运算符函数
+17、inline1
+
+补充部分：
+18、autotest1-2
+19、cast1
+20、cpp11ext1-5
+21、tmplate11
+22、typeidinfo
+23、consttest1-6
+

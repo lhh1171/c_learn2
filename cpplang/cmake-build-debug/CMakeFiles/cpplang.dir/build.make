@@ -70,17 +70,692 @@ CMakeFiles/cpplang.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/main.cpp -o CMakeFiles/cpplang.dir/main.cpp.s
 
+CMakeFiles/cpplang.dir/classtest.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/classtest.cpp.o: ../classtest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpplang.dir/classtest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/classtest.cpp.o -c /home/lqc/CLionProjects/cpplang/classtest.cpp
+
+CMakeFiles/cpplang.dir/classtest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/classtest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/classtest.cpp > CMakeFiles/cpplang.dir/classtest.cpp.i
+
+CMakeFiles/cpplang.dir/classtest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/classtest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/classtest.cpp -o CMakeFiles/cpplang.dir/classtest.cpp.s
+
+CMakeFiles/cpplang.dir/classtest2.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/classtest2.cpp.o: ../classtest2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpplang.dir/classtest2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/classtest2.cpp.o -c /home/lqc/CLionProjects/cpplang/classtest2.cpp
+
+CMakeFiles/cpplang.dir/classtest2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/classtest2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/classtest2.cpp > CMakeFiles/cpplang.dir/classtest2.cpp.i
+
+CMakeFiles/cpplang.dir/classtest2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/classtest2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/classtest2.cpp -o CMakeFiles/cpplang.dir/classtest2.cpp.s
+
+CMakeFiles/cpplang.dir/classtest3.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/classtest3.cpp.o: ../classtest3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpplang.dir/classtest3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/classtest3.cpp.o -c /home/lqc/CLionProjects/cpplang/classtest3.cpp
+
+CMakeFiles/cpplang.dir/classtest3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/classtest3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/classtest3.cpp > CMakeFiles/cpplang.dir/classtest3.cpp.i
+
+CMakeFiles/cpplang.dir/classtest3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/classtest3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/classtest3.cpp -o CMakeFiles/cpplang.dir/classtest3.cpp.s
+
+CMakeFiles/cpplang.dir/classtest4.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/classtest4.cpp.o: ../classtest4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpplang.dir/classtest4.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/classtest4.cpp.o -c /home/lqc/CLionProjects/cpplang/classtest4.cpp
+
+CMakeFiles/cpplang.dir/classtest4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/classtest4.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/classtest4.cpp > CMakeFiles/cpplang.dir/classtest4.cpp.i
+
+CMakeFiles/cpplang.dir/classtest4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/classtest4.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/classtest4.cpp -o CMakeFiles/cpplang.dir/classtest4.cpp.s
+
+CMakeFiles/cpplang.dir/classtest5.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/classtest5.cpp.o: ../classtest5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpplang.dir/classtest5.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/classtest5.cpp.o -c /home/lqc/CLionProjects/cpplang/classtest5.cpp
+
+CMakeFiles/cpplang.dir/classtest5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/classtest5.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/classtest5.cpp > CMakeFiles/cpplang.dir/classtest5.cpp.i
+
+CMakeFiles/cpplang.dir/classtest5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/classtest5.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/classtest5.cpp -o CMakeFiles/cpplang.dir/classtest5.cpp.s
+
+CMakeFiles/cpplang.dir/classtest6.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/classtest6.cpp.o: ../classtest6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cpplang.dir/classtest6.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/classtest6.cpp.o -c /home/lqc/CLionProjects/cpplang/classtest6.cpp
+
+CMakeFiles/cpplang.dir/classtest6.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/classtest6.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/classtest6.cpp > CMakeFiles/cpplang.dir/classtest6.cpp.i
+
+CMakeFiles/cpplang.dir/classtest6.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/classtest6.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/classtest6.cpp -o CMakeFiles/cpplang.dir/classtest6.cpp.s
+
+CMakeFiles/cpplang.dir/constructor.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/constructor.cpp.o: ../constructor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cpplang.dir/constructor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/constructor.cpp.o -c /home/lqc/CLionProjects/cpplang/constructor.cpp
+
+CMakeFiles/cpplang.dir/constructor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/constructor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/constructor.cpp > CMakeFiles/cpplang.dir/constructor.cpp.i
+
+CMakeFiles/cpplang.dir/constructor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/constructor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/constructor.cpp -o CMakeFiles/cpplang.dir/constructor.cpp.s
+
+CMakeFiles/cpplang.dir/constructor2.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/constructor2.cpp.o: ../constructor2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cpplang.dir/constructor2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/constructor2.cpp.o -c /home/lqc/CLionProjects/cpplang/constructor2.cpp
+
+CMakeFiles/cpplang.dir/constructor2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/constructor2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/constructor2.cpp > CMakeFiles/cpplang.dir/constructor2.cpp.i
+
+CMakeFiles/cpplang.dir/constructor2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/constructor2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/constructor2.cpp -o CMakeFiles/cpplang.dir/constructor2.cpp.s
+
+CMakeFiles/cpplang.dir/constructor3.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/constructor3.cpp.o: ../constructor3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cpplang.dir/constructor3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/constructor3.cpp.o -c /home/lqc/CLionProjects/cpplang/constructor3.cpp
+
+CMakeFiles/cpplang.dir/constructor3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/constructor3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/constructor3.cpp > CMakeFiles/cpplang.dir/constructor3.cpp.i
+
+CMakeFiles/cpplang.dir/constructor3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/constructor3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/constructor3.cpp -o CMakeFiles/cpplang.dir/constructor3.cpp.s
+
+CMakeFiles/cpplang.dir/constructor4.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/constructor4.cpp.o: ../constructor4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cpplang.dir/constructor4.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/constructor4.cpp.o -c /home/lqc/CLionProjects/cpplang/constructor4.cpp
+
+CMakeFiles/cpplang.dir/constructor4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/constructor4.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/constructor4.cpp > CMakeFiles/cpplang.dir/constructor4.cpp.i
+
+CMakeFiles/cpplang.dir/constructor4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/constructor4.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/constructor4.cpp -o CMakeFiles/cpplang.dir/constructor4.cpp.s
+
+CMakeFiles/cpplang.dir/extends.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/extends.cpp.o: ../extends.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cpplang.dir/extends.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/extends.cpp.o -c /home/lqc/CLionProjects/cpplang/extends.cpp
+
+CMakeFiles/cpplang.dir/extends.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/extends.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/extends.cpp > CMakeFiles/cpplang.dir/extends.cpp.i
+
+CMakeFiles/cpplang.dir/extends.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/extends.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/extends.cpp -o CMakeFiles/cpplang.dir/extends.cpp.s
+
+CMakeFiles/cpplang.dir/extendsdiscon.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/extendsdiscon.cpp.o: ../extendsdiscon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cpplang.dir/extendsdiscon.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/extendsdiscon.cpp.o -c /home/lqc/CLionProjects/cpplang/extendsdiscon.cpp
+
+CMakeFiles/cpplang.dir/extendsdiscon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/extendsdiscon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/extendsdiscon.cpp > CMakeFiles/cpplang.dir/extendsdiscon.cpp.i
+
+CMakeFiles/cpplang.dir/extendsdiscon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/extendsdiscon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/extendsdiscon.cpp -o CMakeFiles/cpplang.dir/extendsdiscon.cpp.s
+
+CMakeFiles/cpplang.dir/extendsdiscon2.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/extendsdiscon2.cpp.o: ../extendsdiscon2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cpplang.dir/extendsdiscon2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/extendsdiscon2.cpp.o -c /home/lqc/CLionProjects/cpplang/extendsdiscon2.cpp
+
+CMakeFiles/cpplang.dir/extendsdiscon2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/extendsdiscon2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/extendsdiscon2.cpp > CMakeFiles/cpplang.dir/extendsdiscon2.cpp.i
+
+CMakeFiles/cpplang.dir/extendsdiscon2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/extendsdiscon2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/extendsdiscon2.cpp -o CMakeFiles/cpplang.dir/extendsdiscon2.cpp.s
+
+CMakeFiles/cpplang.dir/member.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/member.cpp.o: ../member.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cpplang.dir/member.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/member.cpp.o -c /home/lqc/CLionProjects/cpplang/member.cpp
+
+CMakeFiles/cpplang.dir/member.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/member.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/member.cpp > CMakeFiles/cpplang.dir/member.cpp.i
+
+CMakeFiles/cpplang.dir/member.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/member.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/member.cpp -o CMakeFiles/cpplang.dir/member.cpp.s
+
+CMakeFiles/cpplang.dir/staticmember.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/staticmember.cpp.o: ../staticmember.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cpplang.dir/staticmember.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/staticmember.cpp.o -c /home/lqc/CLionProjects/cpplang/staticmember.cpp
+
+CMakeFiles/cpplang.dir/staticmember.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/staticmember.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/staticmember.cpp > CMakeFiles/cpplang.dir/staticmember.cpp.i
+
+CMakeFiles/cpplang.dir/staticmember.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/staticmember.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/staticmember.cpp -o CMakeFiles/cpplang.dir/staticmember.cpp.s
+
+CMakeFiles/cpplang.dir/discon.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/discon.cpp.o: ../discon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/cpplang.dir/discon.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/discon.cpp.o -c /home/lqc/CLionProjects/cpplang/discon.cpp
+
+CMakeFiles/cpplang.dir/discon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/discon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/discon.cpp > CMakeFiles/cpplang.dir/discon.cpp.i
+
+CMakeFiles/cpplang.dir/discon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/discon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/discon.cpp -o CMakeFiles/cpplang.dir/discon.cpp.s
+
+CMakeFiles/cpplang.dir/discon2.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/discon2.cpp.o: ../discon2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/cpplang.dir/discon2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/discon2.cpp.o -c /home/lqc/CLionProjects/cpplang/discon2.cpp
+
+CMakeFiles/cpplang.dir/discon2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/discon2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/discon2.cpp > CMakeFiles/cpplang.dir/discon2.cpp.i
+
+CMakeFiles/cpplang.dir/discon2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/discon2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/discon2.cpp -o CMakeFiles/cpplang.dir/discon2.cpp.s
+
+CMakeFiles/cpplang.dir/discon3.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/discon3.cpp.o: ../discon3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/cpplang.dir/discon3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/discon3.cpp.o -c /home/lqc/CLionProjects/cpplang/discon3.cpp
+
+CMakeFiles/cpplang.dir/discon3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/discon3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/discon3.cpp > CMakeFiles/cpplang.dir/discon3.cpp.i
+
+CMakeFiles/cpplang.dir/discon3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/discon3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/discon3.cpp -o CMakeFiles/cpplang.dir/discon3.cpp.s
+
+CMakeFiles/cpplang.dir/delete.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/delete.cpp.o: ../delete.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/cpplang.dir/delete.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/delete.cpp.o -c /home/lqc/CLionProjects/cpplang/delete.cpp
+
+CMakeFiles/cpplang.dir/delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/delete.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/delete.cpp > CMakeFiles/cpplang.dir/delete.cpp.i
+
+CMakeFiles/cpplang.dir/delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/delete.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/delete.cpp -o CMakeFiles/cpplang.dir/delete.cpp.s
+
+CMakeFiles/cpplang.dir/virtual1.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/virtual1.cpp.o: ../virtual1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/cpplang.dir/virtual1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/virtual1.cpp.o -c /home/lqc/CLionProjects/cpplang/virtual1.cpp
+
+CMakeFiles/cpplang.dir/virtual1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/virtual1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/virtual1.cpp > CMakeFiles/cpplang.dir/virtual1.cpp.i
+
+CMakeFiles/cpplang.dir/virtual1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/virtual1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/virtual1.cpp -o CMakeFiles/cpplang.dir/virtual1.cpp.s
+
+CMakeFiles/cpplang.dir/virtual2.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/virtual2.cpp.o: ../virtual2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/cpplang.dir/virtual2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/virtual2.cpp.o -c /home/lqc/CLionProjects/cpplang/virtual2.cpp
+
+CMakeFiles/cpplang.dir/virtual2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/virtual2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/virtual2.cpp > CMakeFiles/cpplang.dir/virtual2.cpp.i
+
+CMakeFiles/cpplang.dir/virtual2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/virtual2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/virtual2.cpp -o CMakeFiles/cpplang.dir/virtual2.cpp.s
+
+CMakeFiles/cpplang.dir/virtual3.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/virtual3.cpp.o: ../virtual3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/cpplang.dir/virtual3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/virtual3.cpp.o -c /home/lqc/CLionProjects/cpplang/virtual3.cpp
+
+CMakeFiles/cpplang.dir/virtual3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/virtual3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/virtual3.cpp > CMakeFiles/cpplang.dir/virtual3.cpp.i
+
+CMakeFiles/cpplang.dir/virtual3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/virtual3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/virtual3.cpp -o CMakeFiles/cpplang.dir/virtual3.cpp.s
+
+CMakeFiles/cpplang.dir/virtual4.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/virtual4.cpp.o: ../virtual4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/cpplang.dir/virtual4.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/virtual4.cpp.o -c /home/lqc/CLionProjects/cpplang/virtual4.cpp
+
+CMakeFiles/cpplang.dir/virtual4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/virtual4.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/virtual4.cpp > CMakeFiles/cpplang.dir/virtual4.cpp.i
+
+CMakeFiles/cpplang.dir/virtual4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/virtual4.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/virtual4.cpp -o CMakeFiles/cpplang.dir/virtual4.cpp.s
+
+CMakeFiles/cpplang.dir/virtual5.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/virtual5.cpp.o: ../virtual5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/cpplang.dir/virtual5.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/virtual5.cpp.o -c /home/lqc/CLionProjects/cpplang/virtual5.cpp
+
+CMakeFiles/cpplang.dir/virtual5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/virtual5.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/virtual5.cpp > CMakeFiles/cpplang.dir/virtual5.cpp.i
+
+CMakeFiles/cpplang.dir/virtual5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/virtual5.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/virtual5.cpp -o CMakeFiles/cpplang.dir/virtual5.cpp.s
+
+CMakeFiles/cpplang.dir/virbase.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/virbase.cpp.o: ../virbase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/cpplang.dir/virbase.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/virbase.cpp.o -c /home/lqc/CLionProjects/cpplang/virbase.cpp
+
+CMakeFiles/cpplang.dir/virbase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/virbase.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/virbase.cpp > CMakeFiles/cpplang.dir/virbase.cpp.i
+
+CMakeFiles/cpplang.dir/virbase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/virbase.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/virbase.cpp -o CMakeFiles/cpplang.dir/virbase.cpp.s
+
+CMakeFiles/cpplang.dir/virbase2.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/virbase2.cpp.o: ../virbase2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/cpplang.dir/virbase2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/virbase2.cpp.o -c /home/lqc/CLionProjects/cpplang/virbase2.cpp
+
+CMakeFiles/cpplang.dir/virbase2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/virbase2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/virbase2.cpp > CMakeFiles/cpplang.dir/virbase2.cpp.i
+
+CMakeFiles/cpplang.dir/virbase2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/virbase2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/virbase2.cpp -o CMakeFiles/cpplang.dir/virbase2.cpp.s
+
+CMakeFiles/cpplang.dir/templateopt.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/templateopt.cpp.o: ../templateopt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/cpplang.dir/templateopt.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/templateopt.cpp.o -c /home/lqc/CLionProjects/cpplang/templateopt.cpp
+
+CMakeFiles/cpplang.dir/templateopt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/templateopt.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/templateopt.cpp > CMakeFiles/cpplang.dir/templateopt.cpp.i
+
+CMakeFiles/cpplang.dir/templateopt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/templateopt.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/templateopt.cpp -o CMakeFiles/cpplang.dir/templateopt.cpp.s
+
+CMakeFiles/cpplang.dir/tmplate11.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/tmplate11.cpp.o: ../tmplate11.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/cpplang.dir/tmplate11.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/tmplate11.cpp.o -c /home/lqc/CLionProjects/cpplang/tmplate11.cpp
+
+CMakeFiles/cpplang.dir/tmplate11.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/tmplate11.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/tmplate11.cpp > CMakeFiles/cpplang.dir/tmplate11.cpp.i
+
+CMakeFiles/cpplang.dir/tmplate11.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/tmplate11.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/tmplate11.cpp -o CMakeFiles/cpplang.dir/tmplate11.cpp.s
+
+CMakeFiles/cpplang.dir/singleton.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/singleton.cpp.o: ../singleton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/cpplang.dir/singleton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/singleton.cpp.o -c /home/lqc/CLionProjects/cpplang/singleton.cpp
+
+CMakeFiles/cpplang.dir/singleton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/singleton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/singleton.cpp > CMakeFiles/cpplang.dir/singleton.cpp.i
+
+CMakeFiles/cpplang.dir/singleton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/singleton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/singleton.cpp -o CMakeFiles/cpplang.dir/singleton.cpp.s
+
+CMakeFiles/cpplang.dir/strint.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/strint.cpp.o: ../strint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/cpplang.dir/strint.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/strint.cpp.o -c /home/lqc/CLionProjects/cpplang/strint.cpp
+
+CMakeFiles/cpplang.dir/strint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/strint.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/strint.cpp > CMakeFiles/cpplang.dir/strint.cpp.i
+
+CMakeFiles/cpplang.dir/strint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/strint.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/strint.cpp -o CMakeFiles/cpplang.dir/strint.cpp.s
+
+CMakeFiles/cpplang.dir/namespacetest.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/namespacetest.cpp.o: ../namespacetest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/cpplang.dir/namespacetest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/namespacetest.cpp.o -c /home/lqc/CLionProjects/cpplang/namespacetest.cpp
+
+CMakeFiles/cpplang.dir/namespacetest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/namespacetest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/namespacetest.cpp > CMakeFiles/cpplang.dir/namespacetest.cpp.i
+
+CMakeFiles/cpplang.dir/namespacetest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/namespacetest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/namespacetest.cpp -o CMakeFiles/cpplang.dir/namespacetest.cpp.s
+
+CMakeFiles/cpplang.dir/exceptiontest1.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/exceptiontest1.cpp.o: ../exceptiontest1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/cpplang.dir/exceptiontest1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/exceptiontest1.cpp.o -c /home/lqc/CLionProjects/cpplang/exceptiontest1.cpp
+
+CMakeFiles/cpplang.dir/exceptiontest1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/exceptiontest1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/exceptiontest1.cpp > CMakeFiles/cpplang.dir/exceptiontest1.cpp.i
+
+CMakeFiles/cpplang.dir/exceptiontest1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/exceptiontest1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/exceptiontest1.cpp -o CMakeFiles/cpplang.dir/exceptiontest1.cpp.s
+
+CMakeFiles/cpplang.dir/exceptiontest2.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/exceptiontest2.cpp.o: ../exceptiontest2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/cpplang.dir/exceptiontest2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/exceptiontest2.cpp.o -c /home/lqc/CLionProjects/cpplang/exceptiontest2.cpp
+
+CMakeFiles/cpplang.dir/exceptiontest2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/exceptiontest2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/exceptiontest2.cpp > CMakeFiles/cpplang.dir/exceptiontest2.cpp.i
+
+CMakeFiles/cpplang.dir/exceptiontest2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/exceptiontest2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/exceptiontest2.cpp -o CMakeFiles/cpplang.dir/exceptiontest2.cpp.s
+
+CMakeFiles/cpplang.dir/bad_allocExp.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/bad_allocExp.cpp.o: ../bad_allocExp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/cpplang.dir/bad_allocExp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/bad_allocExp.cpp.o -c /home/lqc/CLionProjects/cpplang/bad_allocExp.cpp
+
+CMakeFiles/cpplang.dir/bad_allocExp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/bad_allocExp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/bad_allocExp.cpp > CMakeFiles/cpplang.dir/bad_allocExp.cpp.i
+
+CMakeFiles/cpplang.dir/bad_allocExp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/bad_allocExp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/bad_allocExp.cpp -o CMakeFiles/cpplang.dir/bad_allocExp.cpp.s
+
+CMakeFiles/cpplang.dir/friend1.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/friend1.cpp.o: ../friend1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/cpplang.dir/friend1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/friend1.cpp.o -c /home/lqc/CLionProjects/cpplang/friend1.cpp
+
+CMakeFiles/cpplang.dir/friend1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/friend1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/friend1.cpp > CMakeFiles/cpplang.dir/friend1.cpp.i
+
+CMakeFiles/cpplang.dir/friend1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/friend1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/friend1.cpp -o CMakeFiles/cpplang.dir/friend1.cpp.s
+
+CMakeFiles/cpplang.dir/friend2.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/friend2.cpp.o: ../friend2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/cpplang.dir/friend2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/friend2.cpp.o -c /home/lqc/CLionProjects/cpplang/friend2.cpp
+
+CMakeFiles/cpplang.dir/friend2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/friend2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/friend2.cpp > CMakeFiles/cpplang.dir/friend2.cpp.i
+
+CMakeFiles/cpplang.dir/friend2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/friend2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/friend2.cpp -o CMakeFiles/cpplang.dir/friend2.cpp.s
+
+CMakeFiles/cpplang.dir/inline1.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/inline1.cpp.o: ../inline1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/cpplang.dir/inline1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/inline1.cpp.o -c /home/lqc/CLionProjects/cpplang/inline1.cpp
+
+CMakeFiles/cpplang.dir/inline1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/inline1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/inline1.cpp > CMakeFiles/cpplang.dir/inline1.cpp.i
+
+CMakeFiles/cpplang.dir/inline1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/inline1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/inline1.cpp -o CMakeFiles/cpplang.dir/inline1.cpp.s
+
+CMakeFiles/cpplang.dir/opt1.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/opt1.cpp.o: ../opt1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/cpplang.dir/opt1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/opt1.cpp.o -c /home/lqc/CLionProjects/cpplang/opt1.cpp
+
+CMakeFiles/cpplang.dir/opt1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/opt1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/opt1.cpp > CMakeFiles/cpplang.dir/opt1.cpp.i
+
+CMakeFiles/cpplang.dir/opt1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/opt1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/opt1.cpp -o CMakeFiles/cpplang.dir/opt1.cpp.s
+
+CMakeFiles/cpplang.dir/opt2.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/opt2.cpp.o: ../opt2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/cpplang.dir/opt2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/opt2.cpp.o -c /home/lqc/CLionProjects/cpplang/opt2.cpp
+
+CMakeFiles/cpplang.dir/opt2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/opt2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/opt2.cpp > CMakeFiles/cpplang.dir/opt2.cpp.i
+
+CMakeFiles/cpplang.dir/opt2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/opt2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/opt2.cpp -o CMakeFiles/cpplang.dir/opt2.cpp.s
+
+CMakeFiles/cpplang.dir/opt3.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/opt3.cpp.o: ../opt3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/cpplang.dir/opt3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/opt3.cpp.o -c /home/lqc/CLionProjects/cpplang/opt3.cpp
+
+CMakeFiles/cpplang.dir/opt3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/opt3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/opt3.cpp > CMakeFiles/cpplang.dir/opt3.cpp.i
+
+CMakeFiles/cpplang.dir/opt3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/opt3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/opt3.cpp -o CMakeFiles/cpplang.dir/opt3.cpp.s
+
+CMakeFiles/cpplang.dir/opt4.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/opt4.cpp.o: ../opt4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/cpplang.dir/opt4.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/opt4.cpp.o -c /home/lqc/CLionProjects/cpplang/opt4.cpp
+
+CMakeFiles/cpplang.dir/opt4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/opt4.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/opt4.cpp > CMakeFiles/cpplang.dir/opt4.cpp.i
+
+CMakeFiles/cpplang.dir/opt4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/opt4.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/opt4.cpp -o CMakeFiles/cpplang.dir/opt4.cpp.s
+
+CMakeFiles/cpplang.dir/opt5.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/opt5.cpp.o: ../opt5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/cpplang.dir/opt5.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/opt5.cpp.o -c /home/lqc/CLionProjects/cpplang/opt5.cpp
+
+CMakeFiles/cpplang.dir/opt5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/opt5.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/opt5.cpp > CMakeFiles/cpplang.dir/opt5.cpp.i
+
+CMakeFiles/cpplang.dir/opt5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/opt5.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/opt5.cpp -o CMakeFiles/cpplang.dir/opt5.cpp.s
+
+CMakeFiles/cpplang.dir/opt6.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/opt6.cpp.o: ../opt6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/cpplang.dir/opt6.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/opt6.cpp.o -c /home/lqc/CLionProjects/cpplang/opt6.cpp
+
+CMakeFiles/cpplang.dir/opt6.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/opt6.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/opt6.cpp > CMakeFiles/cpplang.dir/opt6.cpp.i
+
+CMakeFiles/cpplang.dir/opt6.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/opt6.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/opt6.cpp -o CMakeFiles/cpplang.dir/opt6.cpp.s
+
+CMakeFiles/cpplang.dir/opt7.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/opt7.cpp.o: ../opt7.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/cpplang.dir/opt7.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/opt7.cpp.o -c /home/lqc/CLionProjects/cpplang/opt7.cpp
+
+CMakeFiles/cpplang.dir/opt7.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/opt7.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/opt7.cpp > CMakeFiles/cpplang.dir/opt7.cpp.i
+
+CMakeFiles/cpplang.dir/opt7.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/opt7.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/opt7.cpp -o CMakeFiles/cpplang.dir/opt7.cpp.s
+
+CMakeFiles/cpplang.dir/opt8.cpp.o: CMakeFiles/cpplang.dir/flags.make
+CMakeFiles/cpplang.dir/opt8.cpp.o: ../opt8.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/cpplang.dir/opt8.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpplang.dir/opt8.cpp.o -c /home/lqc/CLionProjects/cpplang/opt8.cpp
+
+CMakeFiles/cpplang.dir/opt8.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpplang.dir/opt8.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lqc/CLionProjects/cpplang/opt8.cpp > CMakeFiles/cpplang.dir/opt8.cpp.i
+
+CMakeFiles/cpplang.dir/opt8.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpplang.dir/opt8.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lqc/CLionProjects/cpplang/opt8.cpp -o CMakeFiles/cpplang.dir/opt8.cpp.s
+
 # Object files for target cpplang
 cpplang_OBJECTS = \
-"CMakeFiles/cpplang.dir/main.cpp.o"
+"CMakeFiles/cpplang.dir/main.cpp.o" \
+"CMakeFiles/cpplang.dir/classtest.cpp.o" \
+"CMakeFiles/cpplang.dir/classtest2.cpp.o" \
+"CMakeFiles/cpplang.dir/classtest3.cpp.o" \
+"CMakeFiles/cpplang.dir/classtest4.cpp.o" \
+"CMakeFiles/cpplang.dir/classtest5.cpp.o" \
+"CMakeFiles/cpplang.dir/classtest6.cpp.o" \
+"CMakeFiles/cpplang.dir/constructor.cpp.o" \
+"CMakeFiles/cpplang.dir/constructor2.cpp.o" \
+"CMakeFiles/cpplang.dir/constructor3.cpp.o" \
+"CMakeFiles/cpplang.dir/constructor4.cpp.o" \
+"CMakeFiles/cpplang.dir/extends.cpp.o" \
+"CMakeFiles/cpplang.dir/extendsdiscon.cpp.o" \
+"CMakeFiles/cpplang.dir/extendsdiscon2.cpp.o" \
+"CMakeFiles/cpplang.dir/member.cpp.o" \
+"CMakeFiles/cpplang.dir/staticmember.cpp.o" \
+"CMakeFiles/cpplang.dir/discon.cpp.o" \
+"CMakeFiles/cpplang.dir/discon2.cpp.o" \
+"CMakeFiles/cpplang.dir/discon3.cpp.o" \
+"CMakeFiles/cpplang.dir/delete.cpp.o" \
+"CMakeFiles/cpplang.dir/virtual1.cpp.o" \
+"CMakeFiles/cpplang.dir/virtual2.cpp.o" \
+"CMakeFiles/cpplang.dir/virtual3.cpp.o" \
+"CMakeFiles/cpplang.dir/virtual4.cpp.o" \
+"CMakeFiles/cpplang.dir/virtual5.cpp.o" \
+"CMakeFiles/cpplang.dir/virbase.cpp.o" \
+"CMakeFiles/cpplang.dir/virbase2.cpp.o" \
+"CMakeFiles/cpplang.dir/templateopt.cpp.o" \
+"CMakeFiles/cpplang.dir/tmplate11.cpp.o" \
+"CMakeFiles/cpplang.dir/singleton.cpp.o" \
+"CMakeFiles/cpplang.dir/strint.cpp.o" \
+"CMakeFiles/cpplang.dir/namespacetest.cpp.o" \
+"CMakeFiles/cpplang.dir/exceptiontest1.cpp.o" \
+"CMakeFiles/cpplang.dir/exceptiontest2.cpp.o" \
+"CMakeFiles/cpplang.dir/bad_allocExp.cpp.o" \
+"CMakeFiles/cpplang.dir/friend1.cpp.o" \
+"CMakeFiles/cpplang.dir/friend2.cpp.o" \
+"CMakeFiles/cpplang.dir/inline1.cpp.o" \
+"CMakeFiles/cpplang.dir/opt1.cpp.o" \
+"CMakeFiles/cpplang.dir/opt2.cpp.o" \
+"CMakeFiles/cpplang.dir/opt3.cpp.o" \
+"CMakeFiles/cpplang.dir/opt4.cpp.o" \
+"CMakeFiles/cpplang.dir/opt5.cpp.o" \
+"CMakeFiles/cpplang.dir/opt6.cpp.o" \
+"CMakeFiles/cpplang.dir/opt7.cpp.o" \
+"CMakeFiles/cpplang.dir/opt8.cpp.o"
 
 # External object files for target cpplang
 cpplang_EXTERNAL_OBJECTS =
 
 cpplang: CMakeFiles/cpplang.dir/main.cpp.o
+cpplang: CMakeFiles/cpplang.dir/classtest.cpp.o
+cpplang: CMakeFiles/cpplang.dir/classtest2.cpp.o
+cpplang: CMakeFiles/cpplang.dir/classtest3.cpp.o
+cpplang: CMakeFiles/cpplang.dir/classtest4.cpp.o
+cpplang: CMakeFiles/cpplang.dir/classtest5.cpp.o
+cpplang: CMakeFiles/cpplang.dir/classtest6.cpp.o
+cpplang: CMakeFiles/cpplang.dir/constructor.cpp.o
+cpplang: CMakeFiles/cpplang.dir/constructor2.cpp.o
+cpplang: CMakeFiles/cpplang.dir/constructor3.cpp.o
+cpplang: CMakeFiles/cpplang.dir/constructor4.cpp.o
+cpplang: CMakeFiles/cpplang.dir/extends.cpp.o
+cpplang: CMakeFiles/cpplang.dir/extendsdiscon.cpp.o
+cpplang: CMakeFiles/cpplang.dir/extendsdiscon2.cpp.o
+cpplang: CMakeFiles/cpplang.dir/member.cpp.o
+cpplang: CMakeFiles/cpplang.dir/staticmember.cpp.o
+cpplang: CMakeFiles/cpplang.dir/discon.cpp.o
+cpplang: CMakeFiles/cpplang.dir/discon2.cpp.o
+cpplang: CMakeFiles/cpplang.dir/discon3.cpp.o
+cpplang: CMakeFiles/cpplang.dir/delete.cpp.o
+cpplang: CMakeFiles/cpplang.dir/virtual1.cpp.o
+cpplang: CMakeFiles/cpplang.dir/virtual2.cpp.o
+cpplang: CMakeFiles/cpplang.dir/virtual3.cpp.o
+cpplang: CMakeFiles/cpplang.dir/virtual4.cpp.o
+cpplang: CMakeFiles/cpplang.dir/virtual5.cpp.o
+cpplang: CMakeFiles/cpplang.dir/virbase.cpp.o
+cpplang: CMakeFiles/cpplang.dir/virbase2.cpp.o
+cpplang: CMakeFiles/cpplang.dir/templateopt.cpp.o
+cpplang: CMakeFiles/cpplang.dir/tmplate11.cpp.o
+cpplang: CMakeFiles/cpplang.dir/singleton.cpp.o
+cpplang: CMakeFiles/cpplang.dir/strint.cpp.o
+cpplang: CMakeFiles/cpplang.dir/namespacetest.cpp.o
+cpplang: CMakeFiles/cpplang.dir/exceptiontest1.cpp.o
+cpplang: CMakeFiles/cpplang.dir/exceptiontest2.cpp.o
+cpplang: CMakeFiles/cpplang.dir/bad_allocExp.cpp.o
+cpplang: CMakeFiles/cpplang.dir/friend1.cpp.o
+cpplang: CMakeFiles/cpplang.dir/friend2.cpp.o
+cpplang: CMakeFiles/cpplang.dir/inline1.cpp.o
+cpplang: CMakeFiles/cpplang.dir/opt1.cpp.o
+cpplang: CMakeFiles/cpplang.dir/opt2.cpp.o
+cpplang: CMakeFiles/cpplang.dir/opt3.cpp.o
+cpplang: CMakeFiles/cpplang.dir/opt4.cpp.o
+cpplang: CMakeFiles/cpplang.dir/opt5.cpp.o
+cpplang: CMakeFiles/cpplang.dir/opt6.cpp.o
+cpplang: CMakeFiles/cpplang.dir/opt7.cpp.o
+cpplang: CMakeFiles/cpplang.dir/opt8.cpp.o
 cpplang: CMakeFiles/cpplang.dir/build.make
 cpplang: CMakeFiles/cpplang.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpplang"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lqc/CLionProjects/cpplang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable cpplang"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpplang.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

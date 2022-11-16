@@ -82,7 +82,148 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/bad_allocExp.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/classtest.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/classtest.h">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/classtest2.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/classtest3.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/classtest4.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/classtest5.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/classtest6.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/constructor.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/constructor2.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/constructor2.h">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/constructor3.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/constructor4.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/delete.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/discon.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/discon2.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/discon3.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/exceptiontest1.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/exceptiontest2.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/extends.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/extendsdiscon.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/extendsdiscon2.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/friend1.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/friend2.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/inline1.cpp">
+			<Option target="cpplang"/>
+		</Unit>
 		<Unit filename="/home/lqc/CLionProjects/cpplang/main.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/member.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/namespacetest.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/opt1.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/opt2.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/opt3.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/opt4.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/opt5.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/opt6.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/opt7.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/opt8.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/singleton.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/staticmember.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/strint.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/templateopt.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/tmplate11.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/virbase.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/virbase2.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/virtual1.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/virtual2.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/virtual3.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/virtual4.cpp">
+			<Option target="cpplang"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/cpplang/virtual5.cpp">
 			<Option target="cpplang"/>
 		</Unit>
 		<Unit filename="/home/lqc/CLionProjects/cpplang/CMakeLists.txt">
