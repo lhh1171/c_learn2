@@ -1,7 +1,7 @@
 #include <iostream>
-void externc();
+void tupe();
 int main() {
-    externc();
+    tupe();
     std::cout << "hhhhhhhhh" << std::endl;
     return 0;
 }
