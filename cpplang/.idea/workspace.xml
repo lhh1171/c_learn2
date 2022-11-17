@@ -30,74 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="138706f4-cc8c-4b0d-a6f2-adb065a31de9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bad_allocExp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classtest.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classtest.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classtest2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classtest3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classtest4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classtest5.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classtest6.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constructor.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constructor2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constructor2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constructor3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constructor4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delete.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discon.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discon2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discon3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exceptiontest1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exceptiontest2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extends.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extendsdiscon.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extendsdiscon2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/friend1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/friend2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inline1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/member.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/namespacetest.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opt1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opt2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opt3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opt4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opt5.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opt6.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opt7.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme-cpplang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticmember.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strint.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templateopt.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmplate11.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virbase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virbase2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virtual1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virtual2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virtual3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virtual4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virtual5.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpplang.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpplang" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpplang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpplang.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpplang.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +60,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -151,7 +85,9 @@
       <option name="presentableId" value="Default" />
       <updated>1668568797490</updated>
       <workItem from="1668568798753" duration="3733000" />
-      <workItem from="1668604152699" duration="1576000" />
+      <workItem from="1668604152699" duration="2725000" />
+      <workItem from="1668672836772" duration="2000" />
+      <workItem from="1668686059925" duration="72000" />
     </task>
     <servers />
   </component>
@@ -175,22 +111,26 @@
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="3507" y="503" width="645" height="421" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668580286029" />
-    <state width="1216" height="346" key="GridCell.Tab.0.bottom" timestamp="1668606872142">
-      <screen x="1920" y="0" width="2560" height="1440" />
+    <state width="1216" height="346" key="GridCell.Tab.0.bottom" timestamp="1668615980793">
+      <screen x="0" y="27" width="1920" height="999" />
     </state>
-    <state width="1216" height="346" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668606872142" />
-    <state width="1216" height="346" key="GridCell.Tab.0.center" timestamp="1668606872142">
-      <screen x="1920" y="0" width="2560" height="1440" />
+    <state width="1216" height="346" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.27.1920.999@0.27.1920.999" timestamp="1668615980793" />
+    <state width="1216" height="346" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668607339849" />
+    <state width="1216" height="346" key="GridCell.Tab.0.center" timestamp="1668615980793">
+      <screen x="0" y="27" width="1920" height="999" />
     </state>
-    <state width="1216" height="346" key="GridCell.Tab.0.center/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668606872142" />
-    <state width="1216" height="346" key="GridCell.Tab.0.left" timestamp="1668606872142">
-      <screen x="1920" y="0" width="2560" height="1440" />
+    <state width="1216" height="346" key="GridCell.Tab.0.center/1920.0.2560.1440/0.27.1920.999@0.27.1920.999" timestamp="1668615980793" />
+    <state width="1216" height="346" key="GridCell.Tab.0.center/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668607339849" />
+    <state width="1216" height="346" key="GridCell.Tab.0.left" timestamp="1668615980793">
+      <screen x="0" y="27" width="1920" height="999" />
     </state>
-    <state width="1216" height="346" key="GridCell.Tab.0.left/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668606872142" />
-    <state width="1216" height="346" key="GridCell.Tab.0.right" timestamp="1668606872142">
-      <screen x="1920" y="0" width="2560" height="1440" />
+    <state width="1216" height="346" key="GridCell.Tab.0.left/1920.0.2560.1440/0.27.1920.999@0.27.1920.999" timestamp="1668615980793" />
+    <state width="1216" height="346" key="GridCell.Tab.0.left/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668607339849" />
+    <state width="1216" height="346" key="GridCell.Tab.0.right" timestamp="1668615980793">
+      <screen x="0" y="27" width="1920" height="999" />
     </state>
-    <state width="1216" height="346" key="GridCell.Tab.0.right/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668606872142" />
+    <state width="1216" height="346" key="GridCell.Tab.0.right/1920.0.2560.1440/0.27.1920.999@0.27.1920.999" timestamp="1668615980793" />
+    <state width="1216" height="346" key="GridCell.Tab.0.right/1920.0.2560.1440/0.27.1920.999@1920.0.2560.1440" timestamp="1668607339849" />
     <state x="3498" y="335" width="672" height="678" key="search.everywhere.popup" timestamp="1668606636172">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
