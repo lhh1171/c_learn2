@@ -43,7 +43,7 @@ public:
 };
 
 //虚拟继承,解决菱形继承问题,不解决的话A内存就会有两份
-void tm();
+void cm();
 int main() {
 //    D d(1,2,3);
 //    fm();
@@ -52,5 +52,5 @@ int main() {
 //    pid_t  p2=fork();
 //    pid_t  p3=fork();
 //    printf("hhhhh(%d,%d,%d)\n",p1,p2,p3);
-    tm();
+    cm();
 }
