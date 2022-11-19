@@ -1,4 +1,7 @@
 #include <iostream>
+#include <unistd.h>
+#include <term.h>
+
 using namespace std;
 class A{
     int id;
@@ -38,10 +41,16 @@ public:
         cout<<"D"<<endl;
     }
 };
+
 //虚拟继承,解决菱形继承问题,不解决的话A内存就会有两份
-void own();
+void tm();
 int main() {
 //    D d(1,2,3);
-    own();
-    return 0;
+//    fm();
+//    pid_t  p1=fork();
+//    //多来了一个进程跑这个main
+//    pid_t  p2=fork();
+//    pid_t  p3=fork();
+//    printf("hhhhh(%d,%d,%d)\n",p1,p2,p3);
+    tm();
 }
