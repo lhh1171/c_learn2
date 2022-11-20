@@ -1,8 +1,6 @@
 #include <iostream>
 
-void fork1();
-using namespace std;
 int main() {
-    fork1();
+    std::cout << "Hello, World!" << std::endl;
     return 0;
 }

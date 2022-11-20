@@ -13,7 +13,6 @@ int fork1(){
         perror("fail to fork");
         exit(-1);
     }
-    printf("lll\n");
 
     if (pid == 0){
         a+=1;
@@ -21,12 +20,10 @@ int fork1(){
         /*子进程*/
         printf("Sub-process, PID: %u, PPID: %u\n", getpid(), getppid());
         sleep(20);
-    }
-    else{/*父进程*/
+    }else{/*父进程*/
         printf("%d\n",a);
         printf("Parent, PID: %u, Sub-process PID: %u\n", getpid(), pid);
         sleep(20);
     }
-
     return 0;
 }
