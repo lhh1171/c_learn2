@@ -1,6 +1,4 @@
-//
-// Created by andilyliao on 16-12-16.
-//
+
 #include <boost/interprocess/managed_shared_memory.hpp>
 #include <boost/interprocess/sync/named_mutex.hpp>
 #include <iostream>
