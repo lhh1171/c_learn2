@@ -3,11 +3,7 @@
 
 CMakeFiles/Client.dir/Lclient.cpp.o: ../Lclient.cpp
 
-CMakeFiles/Client.dir/UdpClient.cpp.o: ../UdpClient.cpp
-
 CMakeFiles/Client.dir/client.cpp.o: ../client.cpp
 
 CMakeFiles/Client.dir/epollServer.cpp.o: ../epollServer.cpp
-
-CMakeFiles/Client.dir/main.cpp.o: ../main.cpp
 

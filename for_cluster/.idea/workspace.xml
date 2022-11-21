@@ -30,71 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99f93a23-64bf-48f0-8a6b-fda30b793361" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Client/Lclient.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cluster2/Lserver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lserver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/UdpClient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/UdpClient.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/UdpClient.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/UdpClient.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/Client" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/Client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/Client.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/Client.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/lqc@192.168.56.106" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LNginx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LNginx/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/server2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/server2.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/socket.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../LNginx/cmake-build-debug/CMakeFiles/LNginx.dir/socket.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LNginx/cmake-build-debug/LNginx" beforeDir="false" afterPath="$PROJECT_DIR$/../LNginx/cmake-build-debug/LNginx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LNginx/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LNginx/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LNginx/server2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LNginx/server2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LNginx/socket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LNginx/socket.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cluster2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cluster2/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/cluster2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/cluster2.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/cluster2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/cluster2.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/cluster2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/cluster2.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/cluster2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/cluster2.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/cluster2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/cluster2.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cluster2/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cluster2/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../cluster2/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cluster2/cmake-build-debug/cluster2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../cluster2/cmake-build-debug/cluster2.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cluster2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cluster2/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/for_cluster.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/for_cluster" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/for_cluster" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/for_cluster.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/for_cluster.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../iowork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../iowork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pcap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lserver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lserver.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +92,7 @@
       <workItem from="1652430844919" duration="11000" />
       <workItem from="1652431100647" duration="2573000" />
       <workItem from="1652436200660" duration="2887000" />
+      <workItem from="1669012294180" duration="353000" />
     </task>
     <servers />
   </component>

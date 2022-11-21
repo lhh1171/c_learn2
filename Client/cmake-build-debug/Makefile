@@ -150,33 +150,6 @@ Lclient.cpp.s:
 	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/Lclient.cpp.s
 .PHONY : Lclient.cpp.s
 
-UdpClient.o: UdpClient.cpp.o
-
-.PHONY : UdpClient.o
-
-# target to build an object file
-UdpClient.cpp.o:
-	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/UdpClient.cpp.o
-.PHONY : UdpClient.cpp.o
-
-UdpClient.i: UdpClient.cpp.i
-
-.PHONY : UdpClient.i
-
-# target to preprocess a source file
-UdpClient.cpp.i:
-	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/UdpClient.cpp.i
-.PHONY : UdpClient.cpp.i
-
-UdpClient.s: UdpClient.cpp.s
-
-.PHONY : UdpClient.s
-
-# target to generate assembly for a file
-UdpClient.cpp.s:
-	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/UdpClient.cpp.s
-.PHONY : UdpClient.cpp.s
-
 client.o: client.cpp.o
 
 .PHONY : client.o
@@ -231,33 +204,6 @@ epollServer.cpp.s:
 	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/epollServer.cpp.s
 .PHONY : epollServer.cpp.s
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,18 +216,12 @@ help:
 	@echo "... Lclient.o"
 	@echo "... Lclient.i"
 	@echo "... Lclient.s"
-	@echo "... UdpClient.o"
-	@echo "... UdpClient.i"
-	@echo "... UdpClient.s"
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"
 	@echo "... epollServer.o"
 	@echo "... epollServer.i"
 	@echo "... epollServer.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

@@ -3,4 +3,4 @@ project(Client)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Client main.cpp client.cpp UdpClient.cpp Lclient.cpp epollServer.cpp)
+add_executable(Client client.cpp Lclient.cpp epollServer.cpp)

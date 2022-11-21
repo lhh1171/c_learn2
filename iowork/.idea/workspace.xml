@@ -30,10 +30,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a9d19dd-5021-4cb7-b336-95777af084a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../cProcess/fork1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cProcess/fork1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cProcess/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cProcess/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpplang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cpplang/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LNginx/socket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LNginx/socket.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../for_cluster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../for_cluster/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../for_cluster/Lserver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../for_cluster/Lserver.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pcap/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +97,8 @@
       <workItem from="1652438902829" duration="1036000" />
       <workItem from="1668344133436" duration="11000" />
       <workItem from="1668866052511" duration="971000" />
+      <workItem from="1669012730727" duration="63000" />
+      <workItem from="1669012801860" duration="640000" />
     </task>
     <servers />
   </component>

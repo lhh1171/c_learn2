@@ -11,9 +11,11 @@ handle_packets(u_char *user, const struct pcap_pkthdr *h, const u_char *packet)
 //    for (int i = 0; i <100; ++i) {
 //        printf("%x\n",packet[i]);
 //    }
-    for (int i = 0; i < 20; ++i) {
-        printf("%x\n",packet[i]);
+    for (int i = 14; i < 100; ++i) {
+//        printf("%d\n",i);
+        printf("%c",packet[i]);
     }
+    printf("\n");
 }
 
 int
@@ -30,7 +32,7 @@ main(int argc, char **argv)
 
     pcap_t *p;
 
-    if ((p = pcap_open_live("usb0", 1518, 1, 1000, errbuff)) ==NULL)
+    if ((p = pcap_open_live("vmnet1", 1518, 1, 1000, errbuff)) ==NULL)
     {
         fprintf(stderr, "Failed to open the interface: enp3s0!");
         exit(EXIT_FAILURE);

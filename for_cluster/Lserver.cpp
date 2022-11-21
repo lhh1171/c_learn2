@@ -4,17 +4,13 @@
 #include<iostream>
 #include<stdio.h>
 #include<sys/socket.h>
-#include<netdb.h>
-#include<sys/types.h>
 #include<arpa/inet.h>
 #include<netinet/in.h>
 #include<unistd.h>
-#include<stdlib.h>
 #include<string.h>
 
 #define MCAST_PORT 8888
 #define MCAST_ADDR "224.0.0.88"  // 多播地址
-#define MCAST_DATA "BROADCAST TEST DATA"  // 多播内容
 #define MCAST_INTERVAL 5  //多播时间间隔
 #define BUFF_SIZE 256   //接收缓冲区大小
 using namespace std;
@@ -45,6 +41,7 @@ int udpserver2() {
         cout << "set sock error" << endl;
         return -3;
     }
+    //UDP
     struct ip_mreq mreq;
     /*加入多播组*/
     mreq.imr_multiaddr.s_addr = inet_addr(MCAST_ADDR);//多播地址

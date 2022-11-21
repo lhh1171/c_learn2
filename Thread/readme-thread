@@ -1,0 +1,88 @@
+pthread.h
+1、thread1-5--------1、创建thread，通过pthread_join等待线程都执行完毕
+                    2、面向对象静态方法作为thread的runable以及pthread_exit结束线程
+                    3、带参数的runable
+                    4、参数是结构体的runable
+                    5、进程不等待线程结束，进程退出线程自动死掉
+2、threadlocal1-2---1、threadlocal 线程私有变量
+
+3、attr、attr2------分离线程，分离后pthread_join不会等待线程执行完
+                    1、通过属性分离线程
+                    2、通过系统调用分离线程
+
+4、sync1-8----------1、线程不安全的情况
+                    2、互斥锁pthread_mutex_t------阻塞pthread_mutex_lock
+                    3、互斥锁pthread_mutex_t------非阻塞pthread_mutex_trylock
+                    4-6、wait/notify条件-----pthread_cond_t
+                    7、读写锁-----pthread_rwlock_t
+                    8、信号量-----sem_t(posix无名信号量)
+
+5、atomic1----------无锁__sync_fetch_and_add
+                        类似函数：
+                            type __sync_fetch_and_add (type *ptr, type value);
+                            type __sync_fetch_and_sub (type *ptr, type value);
+                            type __sync_fetch_and_or (type *ptr, type value);
+                            type __sync_fetch_and_and (type *ptr, type value);
+                            type __sync_fetch_and_xor (type *ptr, type value);
+                            type __sync_fetch_and_nand (type *ptr, type value);
+                            type __sync_add_and_fetch (type *ptr, type value);
+                            type __sync_sub_and_fetch (type *ptr, type value);
+                            type __sync_or_and_fetch (type *ptr, type value);
+                            type __sync_and_and_fetch (type *ptr, type value);
+                            type __sync_xor_and_fetch (type *ptr, type value);
+                            type __sync_nand_and_fetch (type *ptr, type value);
+                            这两个函数提供原子的比较和交换，如果*ptr == oldval,就将newval写入*ptr,
+                            bool __sync_bool_compare_and_swap (type*ptr, type oldval, type newval, ...)相等并写入的情况下返回true
+                            type __sync_val_compare_and_swap (type *ptr, type oldval,  type newval, ...)返回操作之前的值
+                            type __sync_lock_test_and_set (type *ptr, type value, ...)将*ptr设为value并返回*ptr操作之前的值
+                            void __sync_lock_release (type *ptr, ...)将*ptr置0
+
+unistd:
+6、affinity1、2------1、处理器绑定--线程
+                            第一步、sysconf返回当前变量在系统中的设置值,通过它返回系统可以使用的核数
+                            第二步、设置cpu为0-----CPU_ZERO
+                            第三布、将某个cpu加入cpu集中-----CPU_SET
+                            第四布、pthread_setaffinity_np设置线程绑定cpu
+                                   pthread_getaffinity_np判断某个cpu是否已在cpu集中设置了
+                            第五步、将某个cpu从cpu集中移出-----CPU_CLR
+                    2、处理器绑定--进程sched_setaffinity
+
+sys:
+7、volitaletest-----拒绝优化volatile
+                    必须优化__restrict
+
+
+=====================================================================================================================================================================
+
+
+
+1、cppthread1----------------------线程第一种启动方法--线程:基本就是封装的c函数
+
+2、cppasync1-3---------------------线程第二种启动方法--异步：有设计模式在里面了
+                                      this_thread获取本线程
+                                       sleep_for方法进行睡眠
+                                       future获取返回值
+                                                获取future结果有三种方式：get、wait、wait_for，
+                                                其中get等待异步操作结束并返回结果，
+                                                wait只是等待异步操作完成，没有返回值，
+                                                wait_for是超时等待返回结果
+                                       async方法启动线程
+                                       yield方法等同于java的yield
+
+3、cppsharedfuture1----------------shared_future 可以拷贝
+                                    多个 std::shared_future 可以共享某个共享状态的最终结果(即共享状态的某个值或者异常)
+                                     此处需要指定async的执行线程策略为launch::async
+
+4、cpppromise1---------------------设置promise后future可以get的promise设置的那个值，future拿到此值前会阻塞
+
+5、cppmutex1---------------------------mutex互斥锁以及通过lock_guard自动解锁
+                                        把锁放到lock_guard中时，mutex自动上锁，lock_guard析构时，同时把mutex解锁
+
+6、cppcondvar1-2-------------------c++的wait/notify
+
+7、cppatomics1---------------------c++的无锁
+
+=====================================================================================================================================================================
+
+
+1、timer1-2
