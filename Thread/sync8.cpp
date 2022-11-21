@@ -1,6 +1,4 @@
-//
-// Created by andilyliao on 16-11-10.
-//
+
 #include <pthread.h>
 #include <semaphore.h>
 #include <unistd.h>

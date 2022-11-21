@@ -1,6 +1,4 @@
-//
-// Created by andilyliao on 16-11-10.
-//
+
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>

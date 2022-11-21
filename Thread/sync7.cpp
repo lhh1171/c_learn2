@@ -1,6 +1,4 @@
-//
-// Created by andilyliao on 16-11-10.
-//
+
 #include <stdio.h>
 #include <pthread.h>
 #include <stdlib.h>

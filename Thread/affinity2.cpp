@@ -1,6 +1,4 @@
-//
-// Created by andilyliao on 16-11-10.
-//
+
 #include <stdio.h>
 #include <math.h>
 #include <sched.h>
