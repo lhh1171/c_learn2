@@ -1,0 +1,83 @@
+//普通IO
+通用标准库std库
+1、io1-----读取文件及错误的演示(详细错误列表参看errorno.doc)
+2、fputcget-----通过fputchar/fputc以及fgetchar或者fgetc读写一个字符
+3、fseek1-----通过fseek移动那个所谓的文件指针
+4、fputsfgets-----通过fputs以及fgets读写字符串
+5、freadfwrite-----通过fread以及fwrite读写结构体
+
+
+linux标准库unistd库
+6、sysstdio-----通过系统提供的文件描述符读取io设备，例子用的是0号fd--STDIN_FILENO
+7、sysio1-2-----通过open方法打开已经注册在内核的io设备
+                （通过insmod也可以注册内核服务）并获取fd，通过read以及write操作fd
+8、fcntl1-2-----通过fcntl系统调用，通过传入fd，操作文件的特性
+9、dup-----通过dup复制fd
+
+系统调用sys库
+10、ioctl1-----通过ioctl向设备发控制和配置命令(了解就好，没啥用)
+11、inode1-----通过stat获取文件或目录的属性，通过opendir操作目录
+---------------0copy---------------------------
+12、mmap-----通过mmap将io映射为内存
+13、madvise-----通知内核建议如何安排mmap
+14、zerocopy-----通过sendfile64系统调用实现0拷贝
+15、splice-----弥补了sendfile不能从网络接收数据的不足（socket章节后讲）
+16、tee-----管道到管道的0copy复制
+17、hole----洞文件，空洞文件作用很大，例如迅雷下载文件，在未下载完成时就已经占据了全部文件大小的空间，这时候就是空洞文件。
+            下载时如果没有空洞文件，多线程下载时文件就都只能从一个地方写入，这就不是多线程了。
+            如果有了空洞文件，可以从不同的地址写入，就完成了多线程的优势任务。
+18、mlock1-------内存驻留
+                 mlock驻留指定范围的内存
+                 mlockall驻留所有的内存:
+                       MCL_CURRENT，则仅仅当前已分配的内存会被锁定，之后分配的内存则不会
+                       MCL_FUTURE 则会锁定之后分配的所有内存
+                       使用 MCL_CURRENT|MCL_FUTURE 将已经及将来分配的所有内存锁定在物理内存中
+19、memalign1------memalign与posix_memaling
+                在GNU系统中，malloc或realloc返回的内存块地址都是8的倍数（如果是64位系统，则为16的倍数）。如果你需要更大的粒度，请使用memalign或valloc
+                memalign与posix_memaling的共同点
+                memalign和posix_memalign的目的在于分配内存时，起始地址要与2的整数次幂边界对齐
+                不同点
+                1）posix_memalign已分配的内存地址通过参数memptr返回，memalign返回值为已分配内存的地址
+                2）posix_memalign内存与alignment参数的整数倍对齐，alignment必须是sizeof(void*)（在大多数硬件架构上是4或8个字节)与2的整数次幂两者间的乘积。
+                而memalign分配size个字节的内存，起始地址是参数boundary的整数倍，而 boundary必须是2的整数次幂
+                应用领域
+                1）对于某些应用如直接I/O（因为涉及对磁盘的直接访问，所以在执行I/O时必须对齐）非常有用。有时候，对于更大的边界例如页面，程序员需要动态的对齐。
+                2）在编写内存管理器（例如垃圾收集器）时。在这种情况下，有时在较大的块大小上使用对齐的内存会很方便。
+                3）与硬件接口时。
+
+20、directopen1----直接io
+=======================================================================================================
+13）madvise的第一个参数：
+
+madv_normal
+    特殊处理.这是默认的.
+madv_random
+    类以随机顺序引用页.(因此,预读比通常会很有用 .)
+madv_sequential
+    类按顺序依次引用页.(因此,在给定的页面区域可以 aggressively 预读.和可能释放后 .)
+madv_willneed
+    预计在不久的将来访问(因此,可能最好以阅读一些页面 .)
+madv_dontneed
+    不要期待在不久的将来访问(用的时间.用给定的范围后,使内核可以释放与它关联的资源.)在此范围内的页的后续访问都将成功,但从基础会在重新装入存储器内容的映射文件(看到mmap(2))在没有基本映射的页面请求或零填充
+madv_remove
+    释放给定的范围和与其相关联的备份存储.目前,只有 shmfs/tmpfs 支持此;其他文件系统的错误返回 enosys .
+madv_dontfork
+    不要使在此范围内的页子之后fork(2).这是有用的,防止写上复制语义更改页的物理位置.(s)如果写入之后fork(2).(这样的页面指令导致硬件 dmas 至页面(s).)
+madv_dofork
+    撤消 madv_dontfork ,还原默认行为,即映射继承在 fork 的效果(2).
+madv_hwpoison(linux 2.6.32)
+    当一个网页以及其句柄可以像内存硬件的损坏.此操作仅对于特权(cap_sys_admin)进程.此操作可能导致接收日志和页面调用进程没有定义.此功能仅用于测试的内存错误处理代码;它仅在配置为使用 config_memory_failure .
+madv_soft_offline(linux 2.6.33)
+    区域中的软脱机页的地址和长度.指定区域中的每一页的内存是保留(即,当访问,都将看到相同的内容,但在一个新的物理页面框架),和原始网页 offlined(例如,不再使用,超出正常的内存管理).以下是 madv_soft_offline 隐身的效果来(即,不能更改语义)调用进程.此功能仅用于测试的内存错误处理代码;它仅在配置为使用 config_memory_failure .
+madv_mergeable(linux 2.6.32)
+    启用内核 samepage 合并(内存膨胀和ksm)指定的范围中的页地址和长度.内核经常能够扫描用户的内存已经被标为 mergeable ,具有相同内容的页.这些是用单个写保护页(可自动复制如果进程以后想要更新的页的内容).ksm操作合并私有匿名页面(看到mmap(2)).用于生成 实例数目相同的内存膨胀和 ksm 特征数据(例如,诸如 kvm 的虚拟系统).它可以消耗大量的处理能力;请谨慎使用.查看内核源文件 documentation/vm/ksm.txt 有关的细节.与 config_ksm madv_mergeable 和 madv_unmergeable 操作只能在内核被配置.
+madv_unmergeable(linux 2.6.32)
+    撤消先前的效果 madv_mergeable 操作在指定的地址范围;内存膨胀和 ksm unmerges 任何页面时,合并在地址范围指定的地址和长度.
+madv_hugepage(linux 2.6.38)
+    启用透明极大的页(thp)指定的区域中的网页地址和长度.目前,透明向来仅使用私有匿名页面的页面(看到mmap(2)).下面的例子将定期扫 描区域被标为候选页面来替换它们,极大的网页了.内核也将分配大页面直接当分解的庞大与页大小(看到posix_memalign(2)).此功能主要是 以使用大型映射访问大型和数据的内存区域的时间(例如,诸如 qemu 虚拟系统).它可以非常轻松地浪费内存(例如, 2mb 曾访问映射只1个字节将导致有线的 2mb 内存的一个为 4kb 页面).查看内核源文件 documentation/vm/transhuge.txt 有关的细节.以下 madv_hugepage 和 madv_nohugepage 操作 如果内核配置为使用 config_transparent_hugepage 可用.
+madv_nohugepage(linux 2.6.38)
+    在指定的地址范围以确保内存地址和长度将不会被折叠到极大的页.
+
+返回值
+
+在成功madvise()返回零.上的错误,则返回-1, errno 提到它.
