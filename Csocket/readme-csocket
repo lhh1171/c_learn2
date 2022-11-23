@@ -1,0 +1,131 @@
+sys:
+1、cs1-----------------------bio socket/通过send和recv方法收发数据 SOCK_STREAM代表TCP
+2、propercs1-----------------通过setsockopt设置tcp协议的参数（java的socket8个参数）
+3、bufcs1--------------------bio socket/通过read/write收发数据
+4、stringcs1-----------------发送字符串（注意长度要做网络字节序转换）
+5、structcs1-----------------发送struct需要对该struct中每个字段都进行网络字节序转换然后顺次拼接发送
+6、pfpacket1、synflood--------原始套接字的使用
+7、udp0-2--------------------0、bio socket单播：/通过sendto和recvfrom方法收发udp数据 SOCK_DGRAM代表UDP
+                             1、广播：通过setsockopt设置广播
+                             2、组播：通过setsockopt设置组播，并加入组成员地址实现组播通信
+8、sctpcs1-------------------sctp协议（sctpcs1server，sctpcs1cli）
+9、domaincs1-----------------unix域socket（domaincs1server，domaincs1cs1cli）
+=============================================================================================================
+1、select1-3------------------1-2、nio select模型
+                              3、nio socket的例子
+2、poll1----------------------nio poll模型
+                                使用poll与select不一样，因为它们在合适的时候总是会从revents返回；
+                                POLLIN | POLLPRI 等价于select的读事件；
+                                POLLOUT|POLLWRBAND 等价于select的写事件；而POLLOUT等价于POLLWRNORM。
+                                注意这些表示并不是互斥的，它们可以被同时设置，表示这个文件描述符的读取和写入都会正常返回而不阻塞。
+                                timeout参数指定等待的毫秒数，无论I/O是否准备好，poll都会返回。
+                                timeout指定为负数表示无限超时，使poll一直挂起直到一个指定事件的发生。
+
+                                事件 events:
+                                POLLIN 有数据可读
+                                POLLRDNORM 有普通数据可读
+                                POLLRDBAND 有优先数据可读
+                                POLLPRI 有紧急数据可读
+                                POLLOUT 数据可写
+                                POLLWRNORM 普通数据可写
+                                POLLWRBAND 优先数据可写
+                                POLLMSGSIGPOLL 消息可用
+
+                                返回事件 revent
+                                除了事件外还有:
+                                POLLERR 指定描述符发生错误
+                                POLLHUP 指定文件描述符挂起事件
+                                POLLNVAL 指定描述符非法
+
+3、epoll1-----------------------nio epoll lt 水平触发模型
+                                a) epoll是对poll的改进;是linux2.6下性能最好的多路I/O就绪通知方法。
+                                相对于select和poll来说，epoll更加灵活并且不存在描述符限制。
+                                epoll使用一个文件描述符对其他的描述符进行管理；将用户所感兴趣的事件到内核进行注册，
+                                因此只需从用户态到内核态的一次copy，这与select、poll不同。
+                                而select、poll每次调用都要传递用户所有监控的socket给select/poll系统调用，
+                                这就意味着将用户态的socket列表拷贝到内核态。
+                               b) 内核对于文件描述符集合的管理采用了红黑树，通过epoll_ctl对 红黑树上的文件描述符进行高效的管理；
+                               有效的对重复的注册信息 去重。
+                               c) 此外，epoll维护一个双链表，用于存储已经就绪的文件描述符信息。
+                               当epoll_wait调用时，仅仅 这个list中是否存在数据即可。
+                               有数据就返回，没有数据就sleep，等timeout时即使链表没有数据也需要返回。
+                               通常情况下，监控大量的句柄但每次只有少量的就绪的句柄返回，因此只有少量的文件描述符从内核态拷贝到用户态。
+4、epollet----------------------epoll边缘触发模式
+5、iouring1---------------------linux5.1以后对直接放弃aio路线，替换此物作为新的aio方案，此方案目前不稳定，但测试效果比epoll厉害,本利需要Linux 5.7 or higher with IORING_FEAT_FAST_POLL and IORING_OP_PROVIDE_BUFFERS required
+
+===================================================================================================================================================================
+1、io_uring 结构初始化
+struct io_uring {
+    struct io_uring_sq sq;
+    struct io_uring_cq cq;
+    int ring_fd;
+};
+使用之前需要先初始化，使用 io_uring_queue_init 初始化此结构。
+extern int io_uring_queue_init(unsigned entries, struct io_uring *ring,
+    unsigned flags);
+io_uring 是一个循环队列（ring_buffer）。第一个参数 entries 表示队列大小（实际空间可能比用户指定的大）；第二个参数 ring 就是需要初始化的 io_uring 结构指针；第三个参数 flags 是标志参数，无特殊需要传 0 即可。
+例如：
+#include <liburing.h>
+struct io_uring ring;
+io_uring_queue_init(32, &ring, 0);
+
+2、提交读、写请求
+使用io_uring_get_sqe获取sqe结构
+extern struct io_uring_sqe *io_uring_get_sqe(struct io_uring *ring);
+一个sqe代表一次IO请求，占用循环队列一个空位。io_uring 队列满时 io_uring_get_sqe 会返回 NULL，注意错误处理。注意这里的队列是指未提交的请求，已提交的（但未完成）请求不占位置。
+struct io_uring_sqe *sqe = io_uring_get_sqe(&ring);
+
+3、使用io_uring_prep_readv或io_uring_prep_writev初始化sqe结构。
+static inline void io_uring_prep_readv(struct io_uring_sqe *sqe, int fd,
+                       const struct iovec *iovecs,
+                       unsigned nr_vecs, off_t offset);
+static inline void io_uring_prep_writev(struct io_uring_sqe *sqe, int fd,
+                    const struct iovec *iovecs,
+                    unsigned nr_vecs, off_t offset);
+第一个参数sqe即前面获取的sqe结构指针fd为需要读写的文件描述符，可以是磁盘文件也可以是socket；iovecs为iovec数组，nr_vecs为iovecs数组元素个数，offset为文件操作的偏移量。
+struct iovec iov = {
+    .iov_base = "Hello world",
+    .iov_len = strlen("Hello world"),
+};
+io_uring_prep_writev(sqe, fd, &iov, 1, 0);
+初始化 sqe 后，可以用 io_uring_sqe_set_data，传入你自己的数据，一般是一个malloc得到的指针。
+static inline void io_uring_sqe_set_data(struct io_uring_sqe *sqe, void *data);
+
+4、使用 io_uring_submit 提交请求。
+extern int io_uring_submit(struct io_uring *ring);
+你可以初始化多个sqe然后一次性submit。
+io_uring_submit(&ring);
+
+5、完成IO请求
+io_uring_submit 都是异步操作，不会阻塞当前线程。liburing提供了函数io_uring_peek_cqe和io_uring_wait_cqe两个函数获取当前已完成的IO操作。
+extern int io_uring_peek_cqe(struct io_uring *ring,
+    struct io_uring_cqe **cqe_ptr);
+extern int io_uring_wait_cqe(struct io_uring *ring,
+    struct io_uring_cqe **cqe_ptr);
+第一个参数是 io_uring 结构指针；第二个参数 cqe_ptr 是输出参数，是 cqe 指针变量的地址。
+cqe标记一个已完成的IO操作，同时也记录的之前传入的用户数据。每个cqe都与前面的 sqe 对应。
+这两个函数，io_uring_peek_cqe 如果没有已完成的 IO 操作时，也会立即返回，cqe_ptr 被置空；而
+io_uring_wait_cqe 会阻塞线程，等待 IO 操作完成。
+
+for (;;) {
+    io_uring_peek_cqe(&ring, &cqe);
+    if (!cqe) {
+        puts("Waiting...");
+        // accept 新连接，做其他事
+    } else {
+        puts("Finished.");
+        break;
+    }
+}
+6、可通过 io_uring_cqe_get_data 获取前面给sqe设置的用户数据。
+static inline void *io_uring_cqe_get_data(struct io_uring_cqe *cqe);
+默认情况下 IO 完成事件不会从队列中清除，导致 io_uring_peek_cqe 会获取到相同事件
+
+7、使用 io_uring_cqe_seen 标记该事件已被处理
+static inline void io_uring_cqe_seen(struct io_uring *ring,
+                     struct io_uring_cqe *cqe);
+io_uring_cqe_seen(&ring, cqe);
+清除 io_uring，释放资源
+清除 io_uring 结构使用 io_uring_queue_exit
+extern void io_uring_queue_exit(struct io_uring *ring);
+io_uring_queue_exit(&ring);
